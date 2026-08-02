@@ -1,19 +1,20 @@
-### Hi there 👋
+# Probably Fine
 
-<!--
-**probablyfine/probablyfine** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+reference site documenting the structure, governance, policies, and public information surrounding education in Luxembourg.
 
-Here are some ideas to get you started:
+## Purpose
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+The goal of this site is to collect facts, documents, data sources, and historical context relating to Luxembourg's education system.
 
-* Please consider donating to a local [mutual aid fund](https://www.pittsburghmutualaid.com/) or [bail fund](https://www.bukitbailfund.org/home)
-* Learn about [organizing](https://www.youtube.com/watch?v=mWKygyFir54) and talk to your colleagues about [forming a union](https://www.federationoftechworkers.org/) at your workplace.
+## Planned sections
+  - School Types
+  - Governance
+  - Rights of Parents and Students
+  - Environment and Infrastructure
+  - Policy Initiatives
+  - Statistics
+  - Research
+  - School Profiles
+
+## Status
+Work in progress.
