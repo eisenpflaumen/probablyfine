@@ -14,10 +14,6 @@ There is no publicly available data resource at this time which can document sta
 
 The 'basic' Luxembourg public system.
 
-Teaching is typically multilingual, however the assumption is made that all children will speak both German and the (very similar) Luxembourgish or quickly learn to. French is valuable, however Luxembourgish and German are insisted upon, and parents who do not speak these languages to their child at home are advised to find options for their child to be exposed to them, on their own initiative. The national language teaching service (INLL) does not offer lessons to those under 18. 
-
-In 2026, a minority of children (about 45%) in Luxembourg spoke Luxembourgish at home as their primary language, however this was the most common single language for children to speak (of more than 100 languages in total) [MEN language survey](https://men.public.lu/dam-assets/catalogue-publications/langues/luxembourgeois/brochure-snj-diversite-linguistique.pdf). Geographic distribution of Luxembourgish speakers is very uneven, with high density areas in the North and East of the country.
-
 Examples:
 - Lycée des Garçons d'Esch-sur-Alzette
 - Lycée Guillaume Kroll
