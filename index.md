@@ -12,7 +12,7 @@ layout: default
   - [What information on schools is publicly available?](information.md)
   - [What information on the environment is publicly available?](environment.md)
   - [What types of schools exist?](types_of_schools.md)
-  - [How to choose a language/languages?](languages)
+  - [How to choose a language/languages?](languages.md)
   - [What is known about this particular school?](schools/index.md)
   - How is education governed?
   - What are the mechanics of special needs assessment and provision?
