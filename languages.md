@@ -35,7 +35,7 @@ Parents' goals may be very different depending on background and experience. Tho
   
 - For earning power in the private sector, a mixture of languages is definitely advantageous, such that native-equivalent fluency should be targeted for English plus at least one of German and French, and ideally more. Luxembourg's high 7% of unemployment ([in 2026](https://www.luxtimes.lu/luxembourg/unemployment-up/159420547.html)) is at least in part a problem of languages being mismatched to job requirements.
 
-- For stable local employment, a career as a government employee is the obvious preference: learning Luxembourgish in this case is necessary not only to secure a government job but to increase the enjoyment of such a locally-centred life, however parents should be aware that there are not enough government jobs available for all of the young people educated through the Luxembourgish-German mainstream system.
+- For stable local employment, a career as a government employee is the obvious preference: learning Luxembourgish in this case is necessary not only to secure a government job but to increase the enjoyment of such a locally-centred life, however parents should be aware that there are not enough government jobs available for all of the young people educated through the Luxembourgish-German mainstream system. Promotion from primary school to the more aspirational academic track is highly dependent on the commune [see billungsbericht map](information) however it is not directly caused by the price of houses: the successful formation of a positive connection between the primary school teacher and the child depends on a match of character and background.
 
 ### Language preferences for the Government:
 
