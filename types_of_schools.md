@@ -4,7 +4,9 @@ layout: default
 
 # Types of Schools in Luxembourg
 
-Luxembourg offers a variety of schooling options. Broadly speaking, schools fall into seven categories. 
+Luxembourg offers a variety of schooling options. The details of flow through the major and minor options, including european, international, local-international, general, technical, vocational, classical, special needs and semi-medical or fully medical routes, are extremely complicated. Any given education pathway can then be modified with part-time support measures such as 'psychomotricité', or 'accompaniement' for children who are have a diagnosis or are informally judged as being in want of one, or with part-time access to gifted education programmes. Residential options may be medical or correctional in nature or some combination, attendance at boarding schools within Luxembourg may also happen for logistical reasons however this choice is relatively rare compared to nations reputed as education destinations.
+
+The Ministry's overview of routes and choices covers the [nine major pathways](https://men.public.lu/dam-assets/catalogue-publications/divers/informations-generales/systeme-educatif-luxembourgeois-apercu-en.pdf).
 
 There is no publicly available data resource at this time which can document standards or outcomes of individual schools or of types of schools.
 
@@ -168,3 +170,12 @@ Examples:
 
 Best for:
 - Students with a strong and very specific interest
+
+## Boarding Schools and Internats
+
+Luxembourg maintains a number of boarding facilities (internats), primarily for secondary-school pupils. These allow students to attend schools that may be distant from their family home or to benefit from a structured study environment.
+
+Unlike other countries with reputations as education destinations, boarding in Luxembourg is rare and is generally attached to ordinary schools or to crisis/medical/remedial provision, rather than forming a separate elite school sector.
+
+[Official list of boarding schools](https://maison-orientation.public.lu/fr/publications/toutes/liste-internats-luxembourg.html)
+
