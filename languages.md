@@ -41,7 +41,7 @@ Parents' goals may be very different depending on background and experience. Tho
 
 It seems obvious that the Luxembourgish government would promote Luxembourgish, and to a point it does, however the variation in enthusiasm of different schools for different children needs to be understood. Whatever the support and motivation provided by parents, if they and their child are not culturally compatible with the people providing the education then this will be of no benefit and the child will be rejected by the system ([see billungsbericht graph](information)). It is important to be aware of the disconnect between stated goals of the government, to expand the Luxembourgish-speaking community, and the actual behaviour of government institutions and employees.  
 
-The Luxembourgish government is not intolerant of those who wish to develop immigrant children to high levels of educational attainment, and subsequently to positions of influence or remuneration, however the flow of resources indicates that this is not a priority: places fpr the 'fully international' [international GCSE](types_of_schools) are massively oversubscribed. The [types of schools](types_of_schools) section discusses further options including cross-border or fee-paying education.
+The Luxembourgish government is not intolerant of those who wish to develop immigrant children to high levels of educational attainment, and subsequently to positions of influence or remuneration, however the flow of resources indicates that this is not a priority: places for the 'fully international' [international GCSE](types_of_schools) are massively oversubscribed. The [types of schools](types_of_schools) section discusses further options including cross-border or fee-paying education.
 
 
 
