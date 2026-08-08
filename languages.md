@@ -37,7 +37,7 @@ Parents' goals may be very different depending on background and experience. Tho
 
 - For stable local employment, a career as a government employee is the obvious preference: learning Luxembourgish in this case is necessary not only to secure a government job but to increase the enjoyment of such a locally-centred life, however parents should be aware that there are not enough government jobs available for all of the young people educated through the Luxembourgish-German mainstream system. Promotion from primary school to the more aspirational academic track is highly dependent on the commune [see billungsbericht map](information) however it is not directly caused by the price of houses: the successful formation of a positive connection between the primary school teacher and the child depends on a match of character and background. The importance of a good feeling from the primary school teacher is higher in Luxembourg than elsewhere: subjective opinions and experiences are specifically included in the child's report (called a 'bilan') and have an effect on outcomes.
 
-We can summarise these three groups of ambitions as "learn" (get a meaningful and fulfilling education), "earn" (get a fast route to a job), and "churn" (feed the cycle of people through the luxembourgish language community).
+We can summarise these three groups of ambitions as "learn" (devlope as a human being), "earn" (get a fast route to a job), and "churn" (feed the cycle of people through the luxembourgish language community).
 
 ### Language preferences for the Government:
 
