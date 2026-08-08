@@ -27,6 +27,43 @@ The [national parents union](https://eltereforum.lu/lu/ressources/national-elter
 
 Individual schools typically have a parents committee, this body has real but very limited formal powers. Parents in Luxembourg include a larger than usual demographic of top lawyers due to the presence of the European Court (on Kirchberg) as well as many interesting and highly influential people, so valuable advice and perspectives can be found through this body, but it has very little power to compel the attention of the school direction or drive any change in policy or practice. A significant role in of the parents' committee is that a member of the committee does typically sit on the 'conseil de discipline', a decision making body which applies the more serious sanctions to children accused of disciplinary offences. Therefore the role of the parents' committee in advocating for parents and children is small but real.
 
+## Legal Recourse
+ *this section is a rough draft only*
+
+### Access to legal recourse
+
+[Legal aid](https://guichet.public.lu/en/citoyens/justice/voies-recours-reglement-litiges/frais-avocat-justice/demander-assistance-judiciaire.html) is almost always granted when requested on behalf of a child, otherwise it is means tested such that people of median or higher income (those not receiving rent support etc) are likely to be obliged to pay. Granting of legal aid may take up to one year, however it is typically granted retroactively, therefore if you are confident of receiving the aid you can approach a lawyer immediately.
+
+Alternatively to approaching a lawyer, you can make a complaint directly to the police. If you can present a clear and simple case that your child has been harmed (pictures of an injury will help here) then it is probably that the police will address the matter and issue a warning or embark on a prosecution, as appropriate.
+
+The further alternative of presenting a case to the 'parquet' (to the prosecutor) exists however you are strongly advised not to do this without legal advice. The parquet typically takes over one year to respond to cases, and they will certainly be discarded if not prepared to a high standard.
+
+### Potentially relevant law
+
+
+
+Education law in Luxembourg is extremely sparse and vague. There are some general provisions in the civil code which can be argued to apply in education, but very few specific obligations falling to schools.
+
+Potentially relevant sections in the ['code civile'](https://legilux.public.lu/eli/etat/leg/code/civil/20251226#art_1382) include articles 1382-1384:
+
+> 1382
+> Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la faute duquel il est arrivé, à le réparer.
+>
+> 1383
+> Chacun est responsable du dommage qu'il a causé non seulement par son fait, mais encore par sa négligence ou par son imprudence.
+>
+> 1384.( L. du 27 juin 2018 )
+> On est responsable non seulement du dommage que l’on cause par son propre fait, mais encore de celui qui est causé par le fait des personnes dont on doit répondre....
+
+In summary, people and collectives in Luxembourg are responsible for any damage or harm that they cause, either by deed or by negligence or carelessness. Further, and this may be interesting for schools, this principle applies when one is in charge of another. The example given is that a master is responsible for his apprentice, therefore it would seem for example if a child causes harm to another while under supervision by a teacher, the liability for that falls to the school. Seek professional advice before attempting to build a case, however.
+
+
+
+
+
+
+
+
 ---
 Above text is specifically not legal advice and is provided with no assurances.
 
