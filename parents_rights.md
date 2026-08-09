@@ -34,9 +34,11 @@ Individual schools typically have a parents committee, this body has real but ve
 
 [Legal aid](https://guichet.public.lu/en/citoyens/justice/voies-recours-reglement-litiges/frais-avocat-justice/demander-assistance-judiciaire.html) is almost always granted when requested on behalf of a child, otherwise it is means tested such that people of median or higher income (those not receiving rent support etc) are likely to be obliged to pay. Granting of legal aid may take up to one year, however it is typically granted retroactively, therefore if you are confident of receiving the aid you can approach a lawyer immediately.
 
-Alternatively to approaching a lawyer, you can make a complaint directly to the police. If you can present a clear and simple case that your child has been harmed (pictures of an injury will help here) then it is probably that the police will address the matter and issue a warning or embark on a prosecution, as appropriate.
+Alternatively to approaching a lawyer, you can make a complaint directly to the police. If you can present a clear and simple case that your child has been harmed (pictures of an injury will help here) then it is probable that the police will address the matter and issue a warning or embark on a prosecution, as appropriate. 
 
-The further alternative of presenting a case to the 'parquet' (to the prosecutor) exists however you are strongly advised not to do this without legal advice. The parquet typically takes over one year to respond to cases, and they will certainly be discarded if not prepared to a high standard.
+The further alternative of presenting a case to the 'parquet' (to the prosecutor) exists however you are strongly advised not to do this without legal advice. The parquet typically takes over one year to respond to cases, and they will certainly be discarded if not prepared to a high standard. There are a number of advisory and support [services](https://justice.public.lu/fr/organisation-justice/ministere-public/parquets-arrondissement/protection-jeunesse.html) provided by the government for those cases where a child is in genuine difficulty which should be approached first.
+
+
 
 ### Potentially relevant law
 
