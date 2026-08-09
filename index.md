@@ -16,7 +16,7 @@ layout: default
   - [What is known about this particular school?](schools/index.md)
   - How is education governed?
   - What are the mechanics of special needs assessment and provision?
-  - What rights and obligations do parents and students have in theory?
+  - [What rights and obligations do parents have?](parents_rights.md)
   - What rights and obligations to teachers and school directors have in theory?
   - What rights and obligations does the education ministry have in theory?
   - What works (has worked) for parents and children in practice?
