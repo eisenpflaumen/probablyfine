@@ -10,6 +10,8 @@ The Ministry's overview of routes and choices covers the [nine major pathways](h
 
 There is no publicly available data resource at this time which can document standards or outcomes of individual schools or of types of schools.
 
+Whatever you choose for your child, if you are not paying for it then you may find that you have no choice but to accept the offer made by the ministry of education. The government has certain goals and constraints but is not composed entirely of monsters: if you are clear what you need, then there may be some scope to negotiate. For families arriving in Luxembourg it is best to survey the landscape, make a list of first, second, and third choices, then contact the ministry's [placement service](https://men.public.lu/en/systeme-educatif/scolarisation-eleves-etrangers/accueil-eleves.html) which aims to find places.
+
 ## Public Local Schools
 
 The 'basic' Luxembourg public system.
