@@ -59,7 +59,7 @@ the question of "how much is a problem" can be difficult to answer: for the heav
 
 ### Sex and Metal Sensitivity
 
-The [World Health Organisation database](https://inchem.org/pages/ehc.html) indicates that 10% of the female population and 1% of the male population are sensitive to nickel, without giving mechanistic explanations. For iron exposure, the effect goes in the other direction: high levels of oestrogen in the blood (oestrogen is present in women in fluctuating levels according to their reproductive cycle) will [protect cells from damage to by iron](https://www.nature.com/articles/s41586-025-09389-x).
+The [World Health Organisation database](https://inchem.org/pages/ehc.html) indicates that 10% of the female population and 1% of the male population are sensitive to nickel, without giving mechanistic explanations. For iron exposure, the effect goes in the other direction: high levels of oestrogen in the blood (oestrogen is present in women in fluctuating levels according to their reproductive cycle) will [protect cells from damage by iron](https://www.nature.com/articles/s41586-025-09389-x).
 
 ---
 
