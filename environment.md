@@ -69,7 +69,7 @@ Schools which have all or part of their campus within a two km range of a high e
 
 | Institution | Type |
 |------------|------|
-| Lycée Bel‑Val (LBV) | Secondary school |
+| Lycée Belval (LBV) | Secondary school |
 | Lycée Guillaume Kroll (LGK) | Secondary school |
 | [École Internationale Differdange et Esch-sur-Alzette (EIDE)](schools/eide.ml) | International public school |
 | Lycée Mathias Adam (LMA) | Public lycée |
