@@ -14,6 +14,12 @@ Various other options with different language mixes exist, see [types of schools
 
 Note that only the third question is about your child: it is also necessary to be pragmatic about what will work in the child's two most important relationships, with its parents and with the particular caste of people which makes up the teaching profession.
 
+## Language prevalence by commune
+
+![Map of primary language by commune](images/map_languages_luxembourg.jpg "Map of languages by commune in Luxembourg").
+
+Above map shows the most common language by commune and the prevalence of it in some sense. This resource comes with no source, unfortunately, but it looks plausible: compare with the map of school promotion rates in the [information section](information). The near-zero rates of school promotion correspond to communes where Luxembourg is very little spoken (apart from the city, which is complex), while the low or mediocre rates of school promotion correspond to communes where Luxembourgish is the clear majority language. It isn't obvious what decisions parents should make with this information: is it automatically better to live in an area with a few but not many native Luxembourgish speakers, enough to staff the primary school (native-level Luxembourgish is required for mainstream teachers, regardless of what language the children speak) but not so many that they become entitled? The unimpressive rates of promotion in high density Luxembourgish areas may be due to a preference for non-academic life courses in isolated rural communities, and have in fact not much to do with the schools themselves. Ministry officials may argue that the near-zero rates of promotion in Differdange and Larochette are also driven by economic or social factors having nothing to do with the schools, however the high [loss of academic performance](images/billungsbericht_outcomes.png) relative to potential as assessed demographically does argue otherwise. 
+
 ## Language use in society
 
 In 2026, a minority of children (about 33%) in Luxembourg spoke Luxembourgish at home as their primary language, however this was the most common single language for children to speak (of more than 100 languages in total) [language survey](https://national-policies.eacea.ec.europa.eu/youthwiki/chapters/luxembourg/61-general-context). 
