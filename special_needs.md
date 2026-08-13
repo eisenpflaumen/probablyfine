@@ -21,5 +21,25 @@ There is compassion for children with visible and less visible handicaps, and a 
 
 Support inside schools is limited to a quite short list of specific measures: whatever the intentions of individual teachers, Luxembourg does not envisage adapting to the individual child, but rather providing specific help for specific common problems, such as an electronic dictionary for children with dyslexia. The menu of available measures (called 'aménagements raisonnables') is available on [guichet](https://guichet.public.lu/fr/citoyens/citoyennete/accessibilite/mesure-accessibilite/demande-amenagement-raisonnable.html). The measure which teachers often seek is 'accompagniement' (accompaniement), in which a peripatetic additional staff member is appointed to follow a particular child around. This is often sought after by new teachers who may feel overwhelmed when in sole charge of a large class, hoping that a more experienced or specialist teacher will reduce the number of bullying incidents or other cases of lessons being disrupted by a child in distress. Teachers will put parents under pressure to follow the bureaucratic procedures to secure an 'accompagniement' however parents should be aware that this is not necessarily to their child's benefit: the accompanying person may have many functions, however one will be to protect them from bullying, but only during the lesson. Having part-time protection may be more dangerous than having none at all, as it validates the child as a target in the eyes of children and adults having the habit of persecution discussed above. 
 
+### Why, Why Not, and How to Get a Neurodivergence Diagnosis
+
+Schools in Luxembourg are not obliged to explain their decision making or document what goes on in the classroom, which makes it difficult to trust teachers or school administrators if they assert that a child should seek a diagnosis. Teachers see a lot of children and may have a reasonable suspicion that such steps would be appropriate, however they may be motivated by bureaucratic convenience or by a desire to shed responsibility for poor management of their class. If you have some suspicion yourself that your child has substantial variation from the norm in a neurological sense, potentially enough that they could benefit from medication or from an 'aménagement' then it becomes your responsibility to secure a psychological evaluation, which will then be signed off (usually without an in-person consultation) by a psychiatrist. Waiting times for this range from months to years, and costs from nothing up to approximately one thousand euros.
+
+You can secure these evaluations by 
+
+Psychology is not an exact science: the MSc qualified psychologist who makes the actual evaluation is motivated as much 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
