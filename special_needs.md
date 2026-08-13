@@ -9,7 +9,15 @@ The topic of special educational needs is contentious and emotionally loaded eve
 
 A fascist gains self esteem and a sense of belonging by persecuting some person of group, ideally defenseless, that they are able to convince themselves represents a threat to the collective, or a point of weakness if included in that collective. Therefore people with this attitude (even if not politically active) will seek to organise attacks within the school community against children with real or imagined special educational needs. Because the fascist's driving force is emotional and not intellectual, they will convince themselves 100% that they are being good parents and citizens, responding to a real threat (often conceived by them in psychosexual terms) by following their campaign of hate and cannot be reasoned with. It is an error to extend consideration to such people [See Karl Popper's book 'the open society'](https://www.goodreads.com/quotes/25998-the-so-called-paradox-of-freedom-is-the-argument-that-freedom) as they will destroy for others the rights and freedoms which are extended to them. 
 
-If you have problems with racism or other prejudice towards your child, *document everything* and take the guilty party to court. Although these offenses are not often prosecuted in Luxembourg, and indeed seem to be acceptable when committed by members of parliament, they are explicitly and seriously against the law, see in particular the [penal code](https://legilux.public.lu/eli/etat/leg/code/penal/20220501) article 454.
+If you have problems with prejudice towards your child, *document everything* and take the guilty party to court. Although these offenses are not often prosecuted in Luxembourg, and indeed seem to be acceptable when committed by members of parliament, they are explicitly and seriously against the law, see in particular the [penal code](https://legilux.public.lu/eli/etat/leg/code/penal/20220501) article 454.
+
+## Friendship and Support
+
+There is compassion for children with visible and less visible handicaps, and a busy community of people aiming to offer context and support. The group [Liewen a Leieren](https://petitweb.lu/parents/liewen-a-leieren/) is a useful forum where one can read and share (anonymised) dossiers giving typical journeys through the system for parents of children with dyslexia, dyspraxia, or other forms of neurodivergence which create requirements for non-standard education.
+
+## Engaging with the Bureaucracy
+
+Formal support in schools is limited to a quite short list of specific measures: whatever the intentions of individual teachers, Luxembourg does not envisage adapting to the individual child, but rather providing specific help for specific common problems, such as an electronic dictionary for children with dyslexia. The menu of available measures (called 'aménagements raisonnables') is available on [guichet](https://guichet.public.lu/fr/citoyens/citoyennete/accessibilite/mesure-accessibilite/demande-amenagement-raisonnable.html).
 
 
 
