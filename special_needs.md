@@ -32,12 +32,10 @@ If you decide to follow the programme that is laid out by the system, you can fo
  5. If there is no neurodivergence and no physical illness, but your child is still unhappy or acting in a way that is harmful to them and others, then and only then you should consider child psychiatric care. It is very rare for a child to have real psychiatric problems: their minds are not usually complex enough to repress traumatic experiences, carry out self-destructive struggles against their own desires etc etc. Almost every child that ends up in psychiatric care in Luxembourg is a victim of a crazy adult, not crazy themselves, and the pedopsychiatrie serivce knows this: the main treatment which they impose is isolation of the child from all stimuli and stresses, which can in itself be highly traumatic if the child is by nature sociable and curious.
 
 
+---
+Above text is specifically not legal or medical advice and is provided with no assurances.
 
-
-
-
-
-
+This is a community-maintained site and is not affiliated with the Luxembourg Ministry of Education or any other public authority. Reasonable efforts are made to cite sources, check facts and correct errors. Nevertheless, this site is maintained by volunteers and may contain omissions, inaccuracies or outdated information. Readers should consult official sources where authoritative information is required. Corrections, additional sources and suggestions are welcome.
 
 
 
