@@ -10,7 +10,7 @@ layout: default
 
 ## Start Here
   - [What information on schools is publicly available?](information.md)
-  - [What information on the environment is publicly available?](environment.md)
+  - [Which schools have pollution problems?](environment.md)
   - [What types of schools exist?](types_of_schools.md)
   - [How to choose a language/languages?](languages.md)
   - [What is known about this particular school?](schools/index.md)
