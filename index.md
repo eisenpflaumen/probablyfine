@@ -14,12 +14,9 @@ layout: default
   - [What types of schools exist?](types_of_schools.md)
   - [How to choose a language/languages?](languages.md)
   - [What is known about this particular school?](schools/index.md)
+  - [What is the system for kids with special education needs?](special_needs.md)
   - [What prejudice and persecution to expect, how to deal with it?](prejudice_and_persecution.md)
-  - How is education governed?
-  - What are the mechanics of special needs assessment and provision?
   - [What rights and obligations do parents have?](parents_rights.md)
-  - What rights and obligations to teachers and school directors have in theory?
-  - What rights and obligations does the education ministry have in theory?
   - What works (has worked) for parents and children in practice?
 
 --- 
