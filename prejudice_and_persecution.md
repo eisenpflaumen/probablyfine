@@ -46,6 +46,9 @@ And exaggerations of threat:
 The actionability of these statements depends on whether you can argue in court that they were clearly intended as defamatory or discriminatory. If the answer is "no" then a possibly valuable strategy may be to make a GDPR request to discover what private communications were made in more precise terms: the parent trying to stir up collective anger on the parents group is very likely also to have approached the school.
 
 
+---
+Above text is specifically not legal advice and is provided with no assurances.
 
+This is a community-maintained site and is not affiliated with the Luxembourg Ministry of Education or any other public authority. Reasonable efforts are made to cite sources, check facts and correct errors. Nevertheless, this site is maintained by volunteers and may contain omissions, inaccuracies or outdated information. Readers should consult official sources where authoritative information is required. Corrections, additional sources and suggestions are welcome.
 
 
