@@ -14,6 +14,7 @@ layout: default
   - [What types of schools exist?](types_of_schools.md)
   - [How to choose a language/languages?](languages.md)
   - [What is known about this particular school?](schools/index.md)
+  - [What prejudice and persecution to expect, how to deal with it?](prejudice_and_persecution.md)
   - How is education governed?
   - What are the mechanics of special needs assessment and provision?
   - [What rights and obligations do parents have?](parents_rights.md)
