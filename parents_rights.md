@@ -36,7 +36,7 @@ Individual schools typically have a parents committee, this body has real but ve
 
 Alternatively to approaching a lawyer, you can make a complaint directly to the police. If you can present a clear and simple case that your child has been harmed (pictures of an injury will help here) then it is probable that the police will address the matter and issue a warning or embark on a prosecution, as appropriate. 
 
-The further alternative of presenting a case to the 'parquet' (to the prosecutor) exists however you are strongly advised not to do this without legal advice. The parquet typically takes over one year to respond to cases, and they will certainly be discarded if not prepared to a high standard. There are a number of advisory and support [services](https://justice.public.lu/fr/organisation-justice/ministere-public/parquets-arrondissement/protection-jeunesse.html) provided by the government for those cases where a child is in genuine difficulty which should be approached first.
+The further alternative of presenting a case to the 'parquet' (to the prosecutor) exists however you are strongly advised not to do this without legal advice. The parquet typically takes over one year to respond to cases, and they will certainly be discarded if not prepared to a high standard. There are a number of advisory and support [services](https://justice.public.lu/fr/organisation-justice/ministere-public/parquets-arrondissement/protection-jeunesse.html) provided by the government for those cases where a child is in genuine difficulty which should be approached first, or at least considered while waiting for the parquet.
 
 
 
