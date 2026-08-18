@@ -40,9 +40,7 @@ The further alternative of presenting a case to the 'parquet' (to the prosecutor
 
 
 
-### Potentially relevant law
-
-
+### Potentially relevant Luxemburgish law
 
 Education law in Luxembourg is extremely sparse and vague. There are some general provisions in the civil code which can be argued to apply in education, but very few specific obligations falling to schools.
 
@@ -59,11 +57,17 @@ Potentially relevant sections in the ['code civile'](https://legilux.public.lu/e
 
 In summary, people and collectives in Luxembourg are responsible for any damage or harm that they cause, either by deed or by negligence or carelessness. Further, and this may be interesting for schools, this principle applies when one is in charge of another. The example given is that a master is responsible for his apprentice, therefore it would seem for example if a child causes harm to another while under supervision by a teacher, the liability for that falls to the school. Seek professional advice before attempting to build a case, however.
 
+### EU Law
 
+Article 24 of the [charter of fundamental rights](https://eur-lex.europa.eu/eli/treaty/char_2016/art_24/oj/eng) has two provisions which are potentially very relevant to school situations:
 
+> 1.   Children shall have the right to such protection and care as is necessary for their well-being. They may express their views freely. Such views shall be taken into consideration on matters which concern them in accordance with their age and maturity.
 
+> 2.   In all actions relating to children, whether taken by public authorities or private institutions, the child's best interests must be a primary consideration.
 
+This seems promising, but the law allows various interpretations. On point 1, a school can say that they considered the child's views, and decided to ignore them; likewise they can argue that the child's well-being includes being treated in any way they see fit, to toughen that child up. On point 2, the language is slippery: the child's well-being is *a primary consideration* ('une considération primordiale') not *the primary consideration*: the school can therefore argue that the child's well-being was taken very seriously, but not as seriously as some other thing, and still be within the law.
 
+....above section still needs work. One doesn't simply bring a prosecution under article 24.
 
 
 ---
