@@ -17,7 +17,7 @@ The perceived duty to protect your child from threats is often a driving force f
 
 ## Parental rights to information
 
-Luxembourg does not impose rigorous inspection on schools, or oblige them to report on standards and conditions in the school to parents, or oblige schools to give evidence in support of any decisions that they take in relation to children. European regulations do allow parents to access any data which is stored electronically and is relevant to their child. The [CNPD](https://cnpd.public.lu/fr.html) handles requests to access data under the GDPR regulations, typically this results in a dossier being delivered within a matter of a few weeks. The school direction are aware of the GDPR request and typically fulfil it themselves on an 'honor' system such that the dossier delivered may seem to miss a lot of information however this is the only practical way to access information relevant to your child. Schools may refuse to deliver electronic records on the grounds that they do not administer all of their information services themselves, but rather that they are controlled centrally by the ministry of education. A simultaneous request to the ministry and to the school would therefore seem to be advisable.
+Luxembourg does not impose rigorous inspection on schools, or oblige them to report on standards and conditions in the school to parents, or oblige schools to give (or consider) evidence in support of any decisions that they take in relation to children. European regulations do allow parents to access any data which is stored electronically and is relevant to their child. The [CNPD](https://cnpd.public.lu/fr.html) handles requests to access data under the GDPR regulations, typically this results in a dossier being delivered within a matter of a few weeks. The school direction are aware of the GDPR request and typically fulfil it themselves on an 'honor' system such that the dossier delivered may seem to miss a lot of information however this is the only practical way to access information relevant to your child. Schools may refuse to deliver electronic records on the grounds that they do not administer all of their information services themselves, but rather that they are controlled centrally by the ministry of education. A simultaneous request to the ministry and to the school would therefore seem to be advisable.
 
 ## Representation of parents
 
@@ -38,8 +38,6 @@ Alternatively to approaching a lawyer, you can make a complaint directly to the 
 
 The further alternative of presenting a case to the 'parquet' (to the prosecutor) exists however you are strongly advised not to do this without legal advice. The parquet typically takes over one year to respond to cases, and they will certainly be discarded if not prepared to a high standard. There are a number of advisory and support [services](https://justice.public.lu/fr/organisation-justice/ministere-public/parquets-arrondissement/protection-jeunesse.html) provided by the government for those cases where a child is in genuine difficulty which should be approached first, or at least considered while waiting for the parquet.
 
-
-
 ### Potentially relevant Luxemburgish law
 
 Education law in Luxembourg is extremely sparse and vague. There are some general provisions in the civil code which can be argued to apply in education, but very few specific obligations falling to schools.
@@ -59,16 +57,43 @@ In summary, people and collectives in Luxembourg are responsible for any damage 
 
 ### EU Law
 
+It is easy to confuse two separate bodies of EU law, both of which are relevant: ECHR (European Convention on Human Rights) is a Council of Europe treaty enforced by the European Court of Human Rights in Strasbourg, whereas the EU Charter of Fundamental Rights (CFR/ECFR) is an EU constitutional document that binds EU institutions and Member States when they are implementing EU law. ECFR is not enforced directly, rather all enforcement of local (or international) laws should comply with it.
+
+It is envisioned that local law should be exhausted before going to Strasbourg: it may be necessary therefore to seek redress locally even in a case which doesn't have much hope in the local framework, and then move on the higher court only after failure.
+
 Article 24 of the [charter of fundamental rights](https://eur-lex.europa.eu/eli/treaty/char_2016/art_24/oj/eng) has two provisions which are potentially very relevant to school situations:
 
 > 1.   Children shall have the right to such protection and care as is necessary for their well-being. They may express their views freely. Such views shall be taken into consideration on matters which concern them in accordance with their age and maturity.
 
 > 2.   In all actions relating to children, whether taken by public authorities or private institutions, the child's best interests must be a primary consideration.
 
-This seems promising, but the law allows various interpretations. On point 1, a school can say that they considered the child's views, and decided to ignore them; likewise they can argue that the child's well-being includes being treated in any way they see fit, to toughen that child up. On point 2, the language is slippery: the child's well-being is *a primary consideration* ('une considération primordiale') not *the primary consideration*: the school can therefore argue that the child's well-being was taken very seriously, but not as seriously as some other thing, and still be within the law.
+This seems promising, but the law allows various interpretations. On point 1, a school can say that they considered the child's views, and decided to ignore them; likewise they can argue that the child's well-being includes being treated in any way they see fit, to toughen that child up. On point 2, the language is slippery: the child's best interests are *a primary consideration* ('une considération primordiale') not *the primary consideration*: the school can therefore argue that the child's well-being was taken very seriously, but not as seriously as some other thing, and still be within the law.
 
-....above section still needs work. One doesn't simply bring a prosecution under article 24.
+Article 24 is therefore something which is nice to have in mind, but if searching for specific and enforceable law protecting your child then the European Convention on Human Rights might be more useful.
 
+ECHR provions include article 14: [Right to education](https://fra.europa.eu/en/eu-charter/charter/article/14-right-education):
+
+> 2.1. Everyone has the right to education...
+
+This is clearly applicable in the case that the school makes an unjust exclusion, or fails to operate such that it can claim to be "educating". 
+
+> 3. Inhuman or degrading treatment...
+
+Systematic humiliation and abuse of children, perhaps explained as creating a deterrent to others, comes under this. This is not specifically illegal in Luxembourg although some of the vaguer civil law might be appropriate in local courts. It might a good idea to have in mind that this is more clearly and specifically against the law at a European level.
+
+> 6. Fair hearing...
+
+If the school refuses to provide information (or refuses to hear it, or makes it up) in a disciplinary hearing then this is applicable. In the local system this could potentially be treated weakly as an "administrative offense" (a form of bookkeeping error).
+
+> 13. Effective Remedy...
+
+This clause is obscure but potentially the most powerful, as the best outcome under article 13 is to actually fix a systematic problem, rather than simply securing an apology and probably insignificant financial compensation for an individual injured child. 
+
+Article 13 says, in essence: "If you have a claim that a Convention right has been violated, there must be an effective remedy before a national authority." Article 13 must be applied together with another Convention right: you must first show an arguable claim under Article 8, Article 14, etc. The remedy must be practical and effective, not theoretical. A state cannot defend itself merely by pointing to a complaint procedure that never works in practice. The remedy need not guarantee success. The Convention does not require that the parent wins, only that there is a genuine mechanism capable of examining the complaint and providing relief where appropriate. Many Luxembourgish services which purport to support parents actually act only to absorb their energy and resources: the 'service médiation scolaire' for example has no power to compel any action by schools or by the ministry, in theory it is a facilitator for communication but in practice serves no purpose other than to delay and divert. If some of the many parents to have been disappointed by the 'médiation scolaire' were to then attach article 13 claims to their case in Strasbourg that would be a service to all subsequent parents, compelling the government of Luxembourg to implement a more useful service for accountability in education. 
+
+> 14. Non discrimination...
+
+Discrimination is already illegal under Luxembourgish law, however it may in practice not be addressed by the local courts, in which case Strasbourg is the next stop.
 
 ---
 Above text is specifically not legal advice and is provided with no assurances.
