@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: en
 ---
 
 # Types of Schools in Luxembourg

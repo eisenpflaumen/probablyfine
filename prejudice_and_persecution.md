@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: en
 ---
 # Prejudice and Persecution
 

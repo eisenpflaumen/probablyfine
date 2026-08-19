@@ -1,5 +1,6 @@
 ---
 layout : default
+lang: en
 ---
 
 # Languages in Education and Society in Luxembourg

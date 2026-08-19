@@ -1,5 +1,6 @@
 ---
 layout : default
+lang: en
 ---
 
 # Rights and Responsibilities for Parents in Luxembourg
