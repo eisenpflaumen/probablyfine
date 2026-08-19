@@ -66,9 +66,9 @@ It is envisioned that local law should be exhausted before going to Strasbourg: 
 
 Article 24 of the [charter of fundamental rights](https://eur-lex.europa.eu/eli/treaty/char_2016/art_24/oj/eng) has two provisions which are potentially very relevant to school situations:
 
-> 1.   Children shall have the right to such protection and care as is necessary for their well-being. They may express their views freely. Such views shall be taken into consideration on matters which concern them in accordance with their age and maturity.
+> 1   Children shall have the right to such protection and care as is necessary for their well-being. They may express their views freely. Such views shall be taken into consideration on matters which concern them in accordance with their age and maturity.
 
-> 2.   In all actions relating to children, whether taken by public authorities or private institutions, the child's best interests must be a primary consideration.
+> 2   In all actions relating to children, whether taken by public authorities or private institutions, the child's best interests must be a primary consideration.
 
 This seems promising, but the law allows various interpretations. On point 1, a school can say that they considered the child's views, and decided to ignore them; likewise they can argue that the child's well-being includes being treated in any way they see fit, to toughen that child up. On point 2, the language is slippery: the child's best interests are *a primary consideration* ('une considération primordiale') not *the primary consideration*: the school can therefore argue that the child's well-being was taken very seriously, but not as seriously as some other thing, and still be within the law.
 
@@ -94,7 +94,7 @@ This clause is obscure but potentially the most powerful, as the best outcome un
 
 Article 13 says, in essence: "If you have a claim that a Convention right has been violated, there must be an effective remedy before a national authority." Article 13 must be applied together with another Convention right: you must first show an arguable claim under Article 8, Article 14, etc. The remedy must be practical and effective, not theoretical. A state cannot defend itself merely by pointing to a complaint procedure that never works in practice. The remedy need not guarantee success. The Convention does not require that the parent wins, only that there is a genuine mechanism capable of examining the complaint and providing relief where appropriate. Many Luxembourgish services which purport to support parents actually act only to absorb their energy and resources: the 'service médiation scolaire' for example has no power to compel any action by schools or by the ministry, in theory it is a facilitator for communication but in practice serves no purpose other than to delay and divert. If some of the many parents to have been disappointed by the 'médiation scolaire' were to then attach article 13 claims to their case in Strasbourg that would be a service to all subsequent parents, compelling the government of Luxembourg to implement a more useful service for accountability in education. 
 
-> 14. Non discrimination...
+> 14 Non discrimination...
 
 Discrimination is already illegal under Luxembourgish law, however it may in practice not be addressed by the local courts, in which case Strasbourg is the next stop.
 
