@@ -81,20 +81,22 @@ Um dos cientistas luxemburgueses mais eminentes, [Michel Goedert](https://en.wik
 ---
 ## GCSE internacional no Lycée Michel Lucius (LML)
 
-O Lycée Michel Lucius ocupa uma posição singular no panorama do ensino secundário público do Luxemburgo, sendo a única escola estatal do país a oferecer um ensino compatível com a qualificação iGCSE do Reino Unido (em inglês). 16) e Cambridge A levels (em 18Isso é muito procurado, em primeiro lugar porque essas qualificações são reconhecidas em muitas universidades do mundo todo que lecionam em inglês, e também devido à modularidade e flexibilidade do sistema GCSE em relação ao bacharelado: para o GCSE, normalmente são selecionadas de sete a nove disciplinas de uma lista de mais de vinte, permitindo que os alunos se concentrem em seus pontos fortes. Para o A-level, 3-4 As disciplinas são selecionadas para maior especialização. A LML também oferece o ensino público luxemburguês convencional, com foco na obtenção do diploma de bacharelado.
+O Lycée Michel Lucius ocupa uma posição singular no panorama do ensino secundário público do Luxemburgo, sendo a única escola estatal do país a oferecer um ensino compatível com a qualificação iGCSE do Reino Unido (em inglês). 16) e Cambridge A levels (em 18Isso é muito procurado, em primeiro lugar porque essas qualificações são reconhecidas em muitas universidades do mundo todo que lecionam em inglês, e também devido à modularidade e flexibilidade do sistema GCSE em relação ao bacharelado: para o GCSE, normalmente são selecionadas de sete a nove disciplinas de uma lista de mais de vinte, permitindo que os alunos se concentrem em seus pontos fortes. Para o A-level, 3-4 Os temas são selecionados para uma especialização mais aprofundada. LML Também oferece educação pública luxemburguesa convencional rumo ao bacharelado.
 
-A LML é uma escola localizada no centro da cidade e não está isenta de problemas. A educação em inglês é altamente desejada por estudantes estrangeiros de todo o mundo, não apenas de regiões de língua inglesa, visto que o inglês é a língua dominante globalmente na ciência, na academia e nos negócios. Uma consequência disso é que as comunidades educacionais de língua inglesa tendem a ser muito diversas e podem ter que lidar com atitudes e expectativas muito diferentes.
+LML É uma escola no centro da cidade e não está isenta de problemas. A educação em inglês é altamente desejada por estudantes estrangeiros de todo o mundo, não apenas de regiões de língua inglesa, por ser o idioma dominante globalmente na ciência, na academia e nos negócios. Uma consequência disso é que as comunidades educacionais de língua inglesa tendem a ser muito diversas e podem ter que se adaptar a atitudes e expectativas muito diferentes.
 
-### LML Press
+### LML Imprensa
 
-Em geral, a imprensa tem uma visão positiva ou se mantém neutra em relação à LML; no entanto, trata-se de uma escola movimentada no centro da cidade, e incidentes problemáticos de fato ocorrem.
+Em geral, a imprensa se mostra positiva ou se mantém em silêncio sobre o assunto. LML No entanto, trata-se de uma escola movimentada no centro da cidade, e incidentes problemáticos de fato ocorrem.
 
 [Relato de um esfaqueamento](https://today.rtl.lu/news/luxembourg/fourteen-year-old-girl-placed-in-custody-after-stabbing-at-luxembourg-city-school-173351815).
 
 
 ## Escolas Públicas Internacionais
 
-Escolas financiadas pelo Estado que oferecem currículos internacionais e, frequentemente, aulas ministradas em parte em inglês, francês, alemão ou, potencialmente, em algum outro idioma. Essas escolas são recentes e têm sido muito procuradas, apesar dos resultados problemáticos das primeiras turmas. A maior quantidade de informações disponíveis refere-se às escolas mais antigas desse grupo. [EIDE](schools/EIDE.md)Essas instituições geralmente oferecem um diploma de bacharelado que permite o ingresso na universidade (caso o aluno seja aprovado).
+Escolas financiadas pelo Estado que oferecem currículos internacionais e, frequentemente, aulas ministradas em parte em inglês, francês, alemão ou, potencialmente, em algum outro idioma. Essas escolas são recentes e têm sido muito procuradas, apesar dos resultados problemáticos das primeiras turmas. A maior quantidade de informações disponíveis refere-se às escolas mais antigas desse grupo. [EIDE](schools/EIDE.md). 
+
+Normalmente, essas instituições oferecem um diploma de bacharelado que permite o ingresso na universidade (caso o aluno seja aprovado).
 
 Apesar do rótulo &quot;internacional&quot;, essas escolas têm uma missão clara de padronizar os resultados: ensina-se luxemburguês e, normalmente, o idioma de instrução é progressivamente alterado para alemão ou francês em diversas disciplinas ao longo da trajetória escolar. 5-18, independentemente da língua materna da criança ou do seu nível na língua-alvo imposta.
 

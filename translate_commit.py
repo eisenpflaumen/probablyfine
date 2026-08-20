@@ -195,7 +195,7 @@ def parse_markdown(md: str):
         # Preserved acronymns (they are in french, but nobody cares)
         # 
         ackhit = False
-        for ack in ["EIDE", "EIGT", "EIMAB"]:
+        for ack in ["EIDE", "EIGT", "EIMAB", "LML"]:
             if md.startswith(ack, pos):
                 if text_start < pos:
                     fragments.append(Fragment("text", md[text_start:pos]))

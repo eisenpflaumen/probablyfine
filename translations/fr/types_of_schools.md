@@ -81,20 +81,22 @@ L&#39;un des plus éminents scientifiques luxembourgeois, [Michel Goedert](https
 ---
 ## international GCSE at Lycée Michel Lucius (LML)
 
-Le lycée Michel Lucius occupe une place particulière dans le paysage de l&#39;enseignement secondaire public luxembourgeois, étant le seul établissement public du pays à proposer un enseignement compatible avec la qualification britannique iGCSE (à 16) et les A-levels de Cambridge (à 18Ce diplôme est très recherché, d&#39;une part parce qu&#39;il est reconnu par de nombreuses universités à travers le monde qui dispensent un enseignement en anglais, et d&#39;autre part en raison de la modularité et de la flexibilité du système GCSE par rapport au baccalauréat : pour le GCSE, sept à neuf matières sont généralement choisies parmi une liste de plus de vingt, ce qui permet aux élèves de se concentrer sur leurs points forts. Pour le A-level, 3-4 Les matières sont choisies pour une spécialisation plus approfondie. LML propose également un enseignement public luxembourgeois classique menant au baccalauréat.
+Le lycée Michel Lucius occupe une place particulière dans le paysage de l&#39;enseignement secondaire public luxembourgeois, étant le seul établissement public du pays à proposer un enseignement compatible avec la qualification britannique iGCSE (à 16) et les A-levels de Cambridge (à 18Ce diplôme est très recherché, d&#39;une part parce qu&#39;il est reconnu par de nombreuses universités à travers le monde qui dispensent un enseignement en anglais, et d&#39;autre part en raison de la modularité et de la flexibilité du système GCSE par rapport au baccalauréat : pour le GCSE, sept à neuf matières sont généralement choisies parmi une liste de plus de vingt, ce qui permet aux élèves de se concentrer sur leurs points forts. Pour le A-level, 3-4 Les sujets sont sélectionnés pour une spécialisation plus approfondie. LML propose également l&#39;enseignement public luxembourgeois classique menant au baccalauréat.
 
-LML est un établissement scolaire situé en centre-ville et n&#39;est pas exempt de difficultés. L&#39;enseignement en anglais est très prisé des élèves du monde entier, et pas seulement des régions anglophones, car l&#39;anglais est la langue dominante à l&#39;échelle mondiale dans les domaines scientifiques, universitaires et commerciaux. De ce fait, les communautés éducatives anglophones sont souvent très diversifiées et peuvent être amenées à composer avec des attitudes et des attentes très différentes.
+LML Il s&#39;agit d&#39;une école située en centre-ville, non sans difficultés. L&#39;enseignement en anglais est très prisé des élèves du monde entier, et pas seulement des régions anglophones, car l&#39;anglais est la langue dominante à l&#39;échelle mondiale dans les domaines des sciences, de la recherche et des affaires. De ce fait, les communautés éducatives anglophones sont souvent très diversifiées et peuvent être amenées à composer avec des attitudes et des attentes très différentes.
 
-### LML Press
+### LML Presse
 
-En général, la presse est positive ou silencieuse au sujet de LML ; cependant, il s&#39;agit d&#39;une école située en plein centre-ville et des incidents problématiques se produisent effectivement.
+En général, la presse est positive ou silencieuse à propos de LML Cependant, il s&#39;agit d&#39;une école située en plein centre-ville et des incidents problématiques peuvent se produire.
 
 [Signalement d&#39;une agression à l&#39;arme blanche](https://today.rtl.lu/news/luxembourg/fourteen-year-old-girl-placed-in-custody-after-stabbing-at-luxembourg-city-school-173351815).
 
 
 ## Écoles internationales publiques
 
-Écoles publiques proposant des programmes internationaux, souvent enseignés en partie en anglais, en français, en allemand ou dans une autre langue. Ces établissements, de création récente, ont connu un vif succès malgré des résultats scolaires mitigés pour les premières promotions. Les informations disponibles concernent principalement les plus anciennes de ces écoles. [EIDE](schools/EIDE.md)Ces formations offrent généralement un diplôme de baccalauréat qui permet de poursuivre des études universitaires (en cas de réussite).
+Écoles publiques proposant des programmes internationaux, souvent enseignés en partie en anglais, en français, en allemand ou dans une autre langue. Ces établissements, de création récente, ont connu un vif succès malgré des résultats scolaires mitigés pour les premières promotions. Les informations disponibles concernent principalement les plus anciennes de ces écoles. [EIDE](schools/EIDE.md). 
+
+Ces formations offrent généralement un diplôme de baccalauréat qui permet de poursuivre des études universitaires (en cas de réussite).
 
 Malgré leur étiquette « internationale », ces écoles ont pour mission claire d&#39;uniformiser les résultats : le luxembourgeois y est enseigné, et la langue d&#39;enseignement passe progressivement à l&#39;allemand ou au français pour différentes matières, dès l&#39;âge de 12 ans. 5-18, indépendamment de la langue maternelle de l&#39;enfant ou de son niveau dans la langue cible imposée.
 

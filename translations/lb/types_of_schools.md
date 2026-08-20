@@ -81,20 +81,22 @@ Ee vun de renomméiertste lëtzebuergesche Wëssenschaftler, [Michel Goedert](ht
 ---
 ## international GCSE am Lycée Michel Lucius (LML)
 
-De Lycée Michel Lucius huet eng eenzegaarteg Positioun an der ëffentlecher Secondairesbildung zu Lëtzebuerg als déi eenzeg staatlech Schoul am Land, déi eng Ausbildung ubitt, déi kompatibel ass mat der britescher iGCSE-Qualifikatioun (op ... 16) a Cambridge A-Niveauen (op 18). Dëst ass ganz gefrot, éischtens well dës Qualifikatiounen op de ville Universitéiten weltwäit unerkannt sinn, déi op Englesch enseignéieren, an och wéinst der Modularitéit a Flexibilitéit vum GCSE-System am Verglach zum Bacculaureat: fir GCSE gi siwe bis néng Fächer typescherweis aus enger Lëscht vu méi wéi zwanzeg ausgewielt, sou datt d&#39;Schüler sech op hir Stäerkten konzentréiere kënnen. Fir A-Level, 3-4 Fächer gi fir eng méi déif Spezialiséierung ausgewielt. LML bitt och eng allgemeng lëtzebuergesch ëffentlech Ausbildung bis zum Bachelor un.
+De Lycée Michel Lucius huet eng eenzegaarteg Positioun an der ëffentlecher Secondairesbildung zu Lëtzebuerg als déi eenzeg staatlech Schoul am Land, déi eng Ausbildung ubitt, déi kompatibel ass mat der britescher iGCSE-Qualifikatioun (op ... 16) a Cambridge A-Niveauen (op 18). Dëst ass ganz gefrot, éischtens well dës Qualifikatiounen op de ville Universitéiten weltwäit unerkannt sinn, déi op Englesch enseignéieren, an och wéinst der Modularitéit a Flexibilitéit vum GCSE-System am Verglach zum Bacculaureat: fir GCSE gi siwe bis néng Fächer typescherweis aus enger Lëscht vu méi wéi zwanzeg ausgewielt, sou datt d&#39;Schüler sech op hir Stäerkten konzentréiere kënnen. Fir A-Level, 3-4 Fächer ginn fir eng méi déif Spezialiséierung ausgewielt. LML bitt och eng ëffentlech Ausbildung am Allgemengen zu Lëtzebuerg bis zum Bachelor un.
 
 LML ass eng Schoul am Stadzentrum a net ouni Problemer. D&#39;Ausbildung op Englesch ass ganz erwënscht bei nei ukommende Schüler aus der ganzer Welt, net nëmmen aus engleschsproochege Regiounen, well se déi weltwäit dominant Sprooch vun der Wëssenschaft, dem Wëssenschaftswiesen an der Wirtschaft ass. Eng Konsequenz dovun ass, datt engleschsproocheg Bildungsgemeinschaften dacks ganz divers sinn a ganz ënnerschiddlech Astellungen an Erwaardungen akzeptéiere mussen.
 
-### LML Press
+### LML Drécken
 
-Am Allgemengen ass d&#39;Press positiv oder roueg iwwer LML, awer et ass eng villbeschäftegt Schoul am Stadzentrum a problematesch Incidenter geschéien.
+Am Allgemengen ass d&#39;Press positiv oder roueg doriwwer LML Wéi och ëmmer, et ass eng villbeschäftegt Schoul am Stadzentrum an et gëtt heiansdo problematesch Incidenter
 
 [Rapport iwwer e Messerattack](https://today.rtl.lu/news/luxembourg/fourteen-year-old-girl-placed-in-custody-after-stabbing-at-luxembourg-city-school-173351815).
 
 
 ## Ëffentlech international Schoulen
 
-Staatlech finanzéiert Schoulen, déi international Léierpläng ubidden an dacks deelweis op Englesch, Franséisch, Däitsch oder eventuell an enger anerer Sprooch ënnerriicht ginn. Dës sinn zënter kuerzem gegrënnt ginn a si ganz gefrot, trotz problematesche Resultater fir déi éischt Kohorten, déi duerchgaange sinn. Déi meescht Informatioune si fir déi eelst vun dëse Schoulen verfügbar. [EIDE](schools/EIDE.md)Dës bidden typescherweis e Baccalaureat-Ofschloss un, deen et erméiglecht, op d&#39;Uni ze kommen (virausgesat datt et geléngt).
+Staatlech finanzéiert Schoulen, déi international Léierpläng ubidden an dacks deelweis op Englesch, Franséisch, Däitsch oder eventuell an enger anerer Sprooch ënnerriicht ginn. Dës sinn zënter kuerzem gegrënnt ginn a si ganz gefrot, trotz problematesche Resultater fir déi éischt Kohorten, déi duerchgaange sinn. Déi meescht Informatioune si fir déi eelst vun dëse Schoulen verfügbar. [EIDE](schools/EIDE.md). 
+
+Dës bidden typescherweis e Bacculareat-Qualifikatioun un, deen et erméiglecht, op d&#39;Uni ze kommen (virausgesat datt et Erfolleg ass).
 
 Trotz dem &quot;internationalen&quot; Label hunn dës Schoulen eng kloer Missioun, d&#39;Resultater ze standardiséieren: Lëtzebuergesch gëtt geléiert, an d&#39;Unterrichtssprooch gëtt typescherweis progressiv op Däitsch oder Franséisch fir verschidde Fächer gewiesselt, während dem Fortschrëtt vum Alter un. 5-18, onofhängeg vun der Mammesprooch vum Kand oder sengem Niveau an der opgezwongener Zilsprooch.
 

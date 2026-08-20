@@ -81,20 +81,22 @@ Einer der bedeutendsten luxemburgischen Wissenschaftler, [Michel Goedert](https:
 ---
 ## Internationaler GCSE am Lycée Michel Lucius (LML)
 
-Das Lycée Michel Lucius nimmt innerhalb der luxemburgischen öffentlichen Sekundarschullandschaft eine besondere Stellung ein, da es die einzige staatliche Schule des Landes ist, die eine mit dem britischen iGCSE-Abschluss kompatible Ausbildung anbietet (am 10.000). 16) und Cambridge A-Levels (bei 18Dies ist sehr begehrt, erstens weil diese Qualifikationen an vielen englischsprachigen Universitäten weltweit anerkannt werden, und zweitens aufgrund der Modularität und Flexibilität des GCSE-Systems im Vergleich zum Bacculauréat: Für GCSE werden in der Regel sieben bis neun Fächer aus einer Liste von über zwanzig gewählt, sodass sich die Schüler auf ihre Stärken konzentrieren können. Für A-Level, 3-4 Die Fächer werden zur Vertiefung der Spezialisierung ausgewählt. LML bietet außerdem die reguläre luxemburgische öffentliche Schulbildung bis zum Bacculauréat an.
+Das Lycée Michel Lucius nimmt innerhalb der luxemburgischen öffentlichen Sekundarschullandschaft eine besondere Stellung ein, da es die einzige staatliche Schule des Landes ist, die eine mit dem britischen iGCSE-Abschluss kompatible Ausbildung anbietet (am 10.000). 16) und Cambridge A-Levels (bei 18Dies ist sehr begehrt, erstens weil diese Qualifikationen an vielen englischsprachigen Universitäten weltweit anerkannt werden, und zweitens aufgrund der Modularität und Flexibilität des GCSE-Systems im Vergleich zum Bacculauréat: Für GCSE werden in der Regel sieben bis neun Fächer aus einer Liste von über zwanzig gewählt, sodass sich die Schüler auf ihre Stärken konzentrieren können. Für A-Level, 3-4 Die Fächer werden zur tieferen Spezialisierung ausgewählt. LML bietet außerdem eine allgemeine luxemburgische Schulbildung bis zum Bacculauréat an.
 
-Die LML ist eine Schule im Stadtzentrum und hat daher auch ihre Herausforderungen. Englischsprachiger Unterricht ist bei Studienanfängern aus aller Welt sehr begehrt, nicht nur aus englischsprachigen Regionen, da Englisch die weltweit dominierende Sprache in Wissenschaft, Forschung und Wirtschaft ist. Dies führt dazu, dass englischsprachige Bildungseinrichtungen oft sehr heterogen sind und mitunter sehr unterschiedliche Einstellungen und Erwartungen berücksichtigen müssen.
+LML Es handelt sich um eine Schule im Stadtzentrum, die jedoch nicht ohne Probleme ist. Englischsprachige Bildung ist bei Studienanfängern aus aller Welt, nicht nur aus englischsprachigen Regionen, sehr begehrt, da Englisch die weltweit dominierende Sprache in Wissenschaft, Forschung und Wirtschaft ist. Daraus folgt, dass englischsprachige Bildungseinrichtungen oft sehr heterogen sind und mitunter sehr unterschiedliche Einstellungen und Erwartungen berücksichtigen müssen.
 
-### LML Press
+### LML Drücken
 
-Im Allgemeinen berichtet die Presse positiv oder gar nicht über LML; es handelt sich jedoch um eine stark frequentierte Schule im Stadtzentrum, und es kommt dort immer wieder zu problematischen Vorfällen.
+Im Allgemeinen berichtet die Presse positiv oder schweigt dazu. LML Es handelt sich jedoch um eine stark frequentierte Schule im Stadtzentrum, und es kommt dort gelegentlich zu problematischen Vorfällen.
 
 [Bericht über eine Messerstecherei](https://today.rtl.lu/news/luxembourg/fourteen-year-old-girl-placed-in-custody-after-stabbing-at-luxembourg-city-school-173351815)Die
 
 
 ## Öffentliche internationale Schulen
 
-Staatlich finanzierte Schulen mit internationalem Lehrplan, deren Unterricht häufig teilweise auf Englisch, Französisch, Deutsch oder gegebenenfalls einer anderen Sprache stattfindet. Diese Schulen sind relativ neu und erfreuen sich trotz problematischer Ergebnisse der ersten Jahrgänge großer Beliebtheit. Die meisten Informationen liegen zu den ältesten dieser Schulen vor. [EIDE](schools/EIDE.md)Diese Programme bieten in der Regel einen Bachelor-Abschluss, der (bei Erfolg) den Zugang zur Universität ermöglicht.
+Staatlich finanzierte Schulen mit internationalem Lehrplan, deren Unterricht häufig teilweise auf Englisch, Französisch, Deutsch oder gegebenenfalls einer anderen Sprache stattfindet. Diese Schulen sind relativ neu und erfreuen sich trotz problematischer Ergebnisse der ersten Jahrgänge großer Beliebtheit. Die meisten Informationen liegen zu den ältesten dieser Schulen vor. [EIDE](schools/EIDE.md)Die 
+
+Diese Programme bieten in der Regel einen Bachelor-Abschluss an, der (bei Erfolg) den Übergang zur Universität ermöglicht.
 
 Trotz des Etiketts „international“ verfolgen diese Schulen ein klares Ziel: die Standardisierung der Lernergebnisse. Luxemburgisch wird unterrichtet, und die Unterrichtssprache wird im Laufe der Schulzeit schrittweise für verschiedene Fächer auf Deutsch oder Französisch umgestellt. 5-18, unabhängig von der Muttersprache des Kindes oder seinen Kenntnissen der vorgegebenen Zielsprache.
 

@@ -95,7 +95,9 @@ In general the press is positive or silent about LML however it is a busy city c
 
 ## Public International Schools
 
-State-funded schools offering international curricula and often taught partly in English, French, German or potentially some other language. These are recently established and have been much in demand, despite problematic results for the first cohorts to pass through. The most information available is for the oldest of these schools [EIDE](schools/EIDE.md). These typically offer a Bacculaureate qualification which permits progress to university (assuming success).
+State-funded schools offering international curricula and often taught partly in English, French, German or potentially some other language. These are recently established and have been much in demand, despite problematic results for the first cohorts to pass through. The most information available is for the oldest of these schools [EIDE](schools/EIDE.md). 
+
+These typically offer a Bacculaureate qualification which permits progress to university (assuming success).
 
 Despite the "international" label these schools have a clear mission to standardise outputs: Luxembourgish is taught, and the language of instruction is typically switched to German or to French progressively for various subjects during the progress from age 5-18, regardless of the first language of the child or their level in the imposed target language.
 
