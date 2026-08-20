@@ -94,14 +94,14 @@ En général, la presse est positive ou silencieuse au sujet de LML ; cependant,
 
 ## Écoles internationales publiques
 
-Écoles publiques proposant des programmes internationaux, souvent enseignés en partie en anglais, en français, en allemand ou dans une autre langue. Ces établissements, de création récente, ont connu un vif succès malgré des résultats scolaires mitigés pour les premières promotions. Les informations disponibles concernent principalement les plus anciennes de ces écoles. [PROPRIÉTAIRE](schools/EIDE.md)Ces formations offrent généralement un diplôme de baccalauréat qui permet de poursuivre des études universitaires (en cas de réussite).
+Écoles publiques proposant des programmes internationaux, souvent enseignés en partie en anglais, en français, en allemand ou dans une autre langue. Ces établissements, de création récente, ont connu un vif succès malgré des résultats scolaires mitigés pour les premières promotions. Les informations disponibles concernent principalement les plus anciennes de ces écoles. [EIDE](schools/EIDE.md)Ces formations offrent généralement un diplôme de baccalauréat qui permet de poursuivre des études universitaires (en cas de réussite).
 
 Malgré leur étiquette « internationale », ces écoles ont pour mission claire d&#39;uniformiser les résultats : le luxembourgeois y est enseigné, et la langue d&#39;enseignement passe progressivement à l&#39;allemand ou au français pour différentes matières, dès l&#39;âge de 12 ans. 5-18, indépendamment de la langue maternelle de l&#39;enfant ou de son niveau dans la langue cible imposée.
 
 Du fait de la diversité linguistique des élèves fréquentant généralement les écoles internationales, l&#39;enseignement des langues se fait par immersion : l&#39;enseignant parle la langue étrangère sans l&#39;expliquer. Il est utile que les élèves et les parents considèrent cet enseignement comme supervisé. 'language practice' plutôt que comme une ressource complète pour l&#39;apprentissage des langues.
 
 Exemples :
-- [PROPRIÉTAIRE](schools/eide.md)
+- [EIDE](schools/eide.md)
 - [EIGT](schools/eigt.md)
 - EIMAB
 - EIMLB

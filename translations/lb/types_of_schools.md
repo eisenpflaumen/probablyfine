@@ -94,14 +94,14 @@ Am Allgemengen ass d&#39;Press positiv oder roueg iwwer LML, awer et ass eng vil
 
 ## Ëffentlech international Schoulen
 
-Staatlech finanzéiert Schoulen, déi international Léierpläng ubidden an dacks deelweis op Englesch, Franséisch, Däitsch oder eventuell an enger anerer Sprooch ënnerriicht ginn. Dës sinn zënter kuerzem gegrënnt ginn a si ganz gefrot, trotz problematesche Resultater fir déi éischt Kohorten, déi duerchgaange sinn. Déi meescht Informatioune si fir déi eelst vun dëse Schoulen verfügbar. [BESËTZER](schools/EIDE.md)Dës bidden typescherweis e Baccalaureat-Ofschloss un, deen et erméiglecht, op d&#39;Uni ze kommen (virausgesat datt et geléngt).
+Staatlech finanzéiert Schoulen, déi international Léierpläng ubidden an dacks deelweis op Englesch, Franséisch, Däitsch oder eventuell an enger anerer Sprooch ënnerriicht ginn. Dës sinn zënter kuerzem gegrënnt ginn a si ganz gefrot, trotz problematesche Resultater fir déi éischt Kohorten, déi duerchgaange sinn. Déi meescht Informatioune si fir déi eelst vun dëse Schoulen verfügbar. [EIDE](schools/EIDE.md)Dës bidden typescherweis e Baccalaureat-Ofschloss un, deen et erméiglecht, op d&#39;Uni ze kommen (virausgesat datt et geléngt).
 
 Trotz dem &quot;internationalen&quot; Label hunn dës Schoulen eng kloer Missioun, d&#39;Resultater ze standardiséieren: Lëtzebuergesch gëtt geléiert, an d&#39;Unterrichtssprooch gëtt typescherweis progressiv op Däitsch oder Franséisch fir verschidde Fächer gewiesselt, während dem Fortschrëtt vum Alter un. 5-18, onofhängeg vun der Mammesprooch vum Kand oder sengem Niveau an der opgezwongener Zilsprooch.
 
 Wéinst dem méisproochegen Charakter vun der typescher internationaler Schoulopnahm ass de Sproochenunterrecht duerch &quot;Immersioun&quot;: de Léierer schwätzt eng Friemsprooch, erkläert se awer net. Eng nëtzlech Astellung fir Schüler a Elteren ass, de Sproochenunterrecht an der Schoul als iwwerwaacht ze betruechten. 'language practice' anstatt als eng komplett Ressource fir d&#39;Sproocheléiere.
 
 Beispiller:
-- [BESËTZER](schools/eide.md)
+- [EIDE](schools/eide.md)
 - [EIGT](schools/eigt.md)
 - EIMAB
 - EIMLB
