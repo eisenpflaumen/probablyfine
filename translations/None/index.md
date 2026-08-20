@@ -2,6 +2,24 @@
 layout: default
 lang: None
 ---
+<div class="language-switcher">
+<a href="/translations/None/index">
+   <img src="/images/gb.svg" alt="English" >
+</a>
+<a href="/translations/fr/index">
+   <img src="/images/fr.svg" alt="Français">
+</a>
+<a href="/translations/lb/index">
+   <img src="/images/lu.svg" alt="Letzeburgesch">
+</a>
+<a href="/translations/pt/index">
+   <img src="/images/pt.svg" alt="Português">
+</a>
+<a href="/translations/uk/index">
+   <img src="/images/ua.svg" alt="українська мова">
+</a>
+</div>
+
 
 # Probably Fine
 
@@ -12,14 +30,14 @@ lang: None
 > This site is not intended to criticise the government or the teaching profession, nor is it intended to protect or enhance their reputations, nor is it really intended as advocacy for reform. It is envisioned as a resource to help parents to do the best possible for their children in the system as it exists. 
 
 ## Start Here
-  - [What information on schools is publicly available?](information.md)
-  - [Which schools have pollution problems?](environment.md)
-  - [What types of schools exist?](types_of_schools.md)
-  - [How to choose a language/languages?](languages.md)
-  - [What is known about this particular school?](schools/index.md)
-  - [What is the system for kids with special education needs?](special_needs.md)
-  - [What prejudice and persecution to expect, how to deal with it?](prejudice_and_persecution.md)
-  - [What rights and obligations do parents have?](parents_rights.md)
+  - [What information on schools is publicly available?](information)
+  - [Which schools have pollution problems?](environment)
+  - [What types of schools exist?](types_of_schools)
+  - [How to choose a language/languages?](languages)
+  - [What is known about this particular school?](schools/index)
+  - [What is the system for kids with special education needs?](special_needs)
+  - [What prejudice and persecution to expect, how to deal with it?](prejudice_and_persecution)
+  - [What rights and obligations do parents have?](parents_rights)
   - What works (has worked) for parents and children in practice?
 
 --- 

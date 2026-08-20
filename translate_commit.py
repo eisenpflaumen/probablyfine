@@ -39,8 +39,8 @@ from typing import Optional
 DB_FILE = "translation_cache.db"
 
 
-##uk is ukrainian.
-LANGS = ["fr", "de", "pt", "lb", "uk"] #, "ar"]
+##"uk" is ukrainian.
+LANGS = ["None", "fr", "de", "pt", "lb", "uk"] #, "ar"]
 
 
 # -------------------------------------------------------------
@@ -347,7 +347,7 @@ def main( args ):
     english_files = []
     generated     = []
     for p in staged:
-        suffix = p.split(".")[-1]
+        suffix = str(p).split(".")[-1]
         if suffix.lower() in ("md", "markdown"): 
             ##do we need to check that it is in English? 
             english_files.append( p )
