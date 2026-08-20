@@ -2,13 +2,12 @@
 layout: default
 stem: index
 ---
-
 <div class="language-switcher">
 <a href="/translations/None/schools/{{page.stem}}">
-   <img src="/images/gb.svg" alt="English" class="current">
+   <img src="/images/gb.svg" alt="English" >
 </a>
 <a href="/translations/fr/schools/{{page.stem}}">
-   <img src="/images/fr.svg" alt="Français">
+   <img src="/images/fr.svg" alt="Français" class="current">
 </a>
 <a href="/translations/lb/schools/{{page.stem}}">
    <img src="/images/lu.svg" alt="Letzeburgesch">
@@ -21,20 +20,20 @@ stem: index
 </a>
 </div>
 
-# School Directory
+# Annuaire scolaire
 
-This section collects publicly available information relating to individual schools in Luxembourg. 
+Cette section rassemble les informations accessibles au public concernant les établissements scolaires individuels au Luxembourg. 
 
-School pages may include:
-  - Basic information
-  - Educational programmes
-  - Historical Press coverage
-  - Environment and Infrastructure
-  - Any statements from the ministry
+Les pages scolaires peuvent inclure :
+  - Informations de base
+  - programmes éducatifs
+  - Couverture de la presse historique
+  - Environnement et infrastructure
+  - Toute déclaration du ministère
 
 
-## Schools (please maintain alphabetical order)
+## Écoles (veuillez respecter l&#39;ordre alphabétique)
 
 [Ecole Internationale de Differdange et Esch](eide.md)
 
-[Ecole Internationale Gaston Thorne](eigt.md)
+[École Internationale Gaston Thorne](eigt.md)

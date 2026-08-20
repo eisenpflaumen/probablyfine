@@ -2,10 +2,9 @@
 layout: default
 stem: index
 ---
-
 <div class="language-switcher">
 <a href="/translations/None/schools/{{page.stem}}">
-   <img src="/images/gb.svg" alt="English" class="current">
+   <img src="/images/gb.svg" alt="English" >
 </a>
 <a href="/translations/fr/schools/{{page.stem}}">
    <img src="/images/fr.svg" alt="Français">
