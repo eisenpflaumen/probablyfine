@@ -68,9 +68,7 @@ def parse_markdown(md: str):
     pos       = 0
     n         = len(md)
 
-    # -------------------------
-    # YAML front matter
-    # -------------------------
+    ## YAML front matter
     if md.startswith("---\n"):
         end = md.find("\n---\n", 4)
         if end != -1:
@@ -79,6 +77,26 @@ def parse_markdown(md: str):
                 Fragment( "code", md[:end] )
             )
             pos = end
+
+    ## language switcher
+    start_tag = r'<div class="language-switcher">'        
+    end_tag   = r'<\div>'
+    
+    # Skip whitespace
+    while pos < len(md) and md[pos].isspace(): 
+        pos += 1
+    
+    if md.startswith(start_tag, pos):
+        switcher_start = pos
+        switcher_end = md.find(r"</div>", switcher_start)
+    
+    if switcher_end == -1:
+        raise ValueError("Unterminated language switcher")
+    switcher_end += len(r"</div>")
+    switcher = md[switcher_start:switcher_end]
+    pos      = switcher_end
+    ###edit the switcher block with string replacements, later.
+    fragments.append( Fragment("code", switcher ) )
 
     text_start = pos
     while pos < n:
@@ -212,8 +230,21 @@ def translate(text: str, target_lang: str) -> str:
                 store_translation( orig_text, f.text, 'en', target_lang )
         if f.kind != "text" and "lang: en" in f.text:
             f.text = f.text.replace("lang: en", "lang: %s" % target_lang)
-        else:
-            print("skipping code fragment or pure whitespace: %s" % f.text)
+
+        if f.kind != "text" and "language-switcher" in f.text:
+            lines = f.text.split("\n")
+            lines_out = []
+            current   = False
+            for L in lines:
+                if 'class="current"' in L:
+                    L = L.replace( 'class="current"', '' )
+                if current is True:
+                    L = L.replace( '">', '" class="current">' )
+                    current = False
+                if "translations/%s" % target_lang in L:
+                    current = True
+                lines_out.append( L )
+            f.text = "\n".join( lines_out ) 
             
     return reconstruct(fragments)
 

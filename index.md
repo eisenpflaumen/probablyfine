@@ -3,6 +3,25 @@ layout: default
 lang: en
 ---
 
+<div class="language-switcher">
+<a href="translations/None/index.md">
+   <img src="/images/gb.svg" alt="English" class="current">
+</a>
+<a href="translations/fr/index.md">
+   <img src="/images/fr.svg" alt="Français">
+</a>
+<a href="translations/lb/index.md">
+   <img src="/images/lu.svg" alt="Letzeburgesch">
+</a>
+<a href="translations/pt/index.md">
+   <img src="/images/pt.svg" alt="Português">
+</a>
+<a href="translations/uk/index.md">
+   <img src="/images/uk.svg" alt="українська мова">
+</a>
+</div>
+
+
 # Probably Fine
 
 > **Probably Fine** is an independent reference site documenting the structure, governance, policies and publicly available information relating to care and education of children in Luxembourg. Every parent is learning as their child does: we have a complicated system which it can be difficult to guide a child through.  

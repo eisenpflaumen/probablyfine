@@ -2,6 +2,24 @@
 layout: default
 lang: pt
 ---
+<div class="language-switcher">
+<a href="translations/None/index.md">
+   <img src="/images/gb.svg" alt="English" >
+</a>
+<a href="translations/fr/index.md">
+   <img src="/images/fr.svg" alt="Français">
+</a>
+<a href="translations/lb/index.md">
+   <img src="/images/lu.svg" alt="Letzeburgesch">
+</a>
+<a href="translations/pt/index.md">
+   <img src="/images/pt.svg" alt="Português" class="current">
+</a>
+<a href="translations/uk/index.md">
+   <img src="/images/uk.svg" alt="українська мова">
+</a>
+</div>
+
 
 # Provavelmente está tudo bem
 

@@ -14,3 +14,32 @@ body {
     background-color: #ffffff;
 }
 
+.language-switcher {
+    text-align: right;
+    margin-bottom: 1em;
+}
+
+.language-switcher a {
+    text-decoration: none;
+}
+
+.language-switcher img {
+    width: 32px;
+    height: auto;
+    margin-left: 6px;
+
+    border: 3px solid white;
+    border-radius: 4px;
+
+    vertical-align: middle;
+}
+
+.language-switcher img.current {
+    border-color: #888;
+}
+
+.language-switcher img:hover {
+    opacity: 0.8;
+}
+
+
