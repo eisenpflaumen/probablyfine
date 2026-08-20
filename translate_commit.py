@@ -42,6 +42,9 @@ DB_FILE = "translation_cache.db"
 ##"uk" is ukrainian.
 LANGS = ["None", "fr", "de", "pt", "lb", "uk"] #, "ar"]
 
+##strings not to translate
+do_not_translate =  ["EIDE", "EIGT", "EIMAB", "LML", "Liewen a Leieren"]
+
 
 # -------------------------------------------------------------
 # Translation backend
@@ -195,7 +198,7 @@ def parse_markdown(md: str):
         # Preserved acronymns (they are in french, but nobody cares)
         # 
         ackhit = False
-        for ack in ["EIDE", "EIGT", "EIMAB", "LML"]:
+        for ack in do_not_translate:
             if md.startswith(ack, pos):
                 if text_start < pos:
                     fragments.append(Fragment("text", md[text_start:pos]))
