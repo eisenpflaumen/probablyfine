@@ -85,7 +85,8 @@ def parse_markdown(md: str):
     # Skip whitespace
     while pos < len(md) and md[pos].isspace(): 
         pos += 1
-    
+
+    switcher_end = -1    
     if md.startswith(start_tag, pos):
         switcher_start = pos
         switcher_end = md.find(r"</div>", switcher_start)
@@ -346,7 +347,8 @@ def main( args ):
     english_files = []
     generated     = []
     for p in staged:
-        if p.suffix.lower() in (".md", ".markdown"): 
+        suffix = p.split(".")[-1]
+        if suffix.lower() in ("md", "markdown"): 
             ##do we need to check that it is in English? 
             english_files.append( p )
 
@@ -363,7 +365,8 @@ def main( args ):
         if args.no_translate:
             languages = ["None"]        
 
-        generated.extend( translate_file(src, languages) )
+        
+        generated.extend( translate_file( Path(src), languages) )
 
     # stage generated translations
     for p in generated:
