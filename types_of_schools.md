@@ -1,7 +1,27 @@
 ---
 layout: default
 lang: en
+stem: types_of_schools 
 ---
+
+<div class="language-switcher">
+<a href="/translations/None/{{page.stem}}">
+   <img src="/images/gb.svg" alt="English" class="current">
+</a>
+<a href="/translations/fr/{{page.stem}}">
+   <img src="/images/fr.svg" alt="Français">
+</a>
+<a href="/translations/lb/{{page.stem}}">
+   <img src="/images/lu.svg" alt="Letzeburgesch">
+</a>
+<a href="/translations/pt/{{page.stem}}">
+   <img src="/images/pt.svg" alt="Português">
+</a>
+<a href="/translations/uk/{{page.stem}}">
+   <img src="/images/ua.svg" alt="українська мова">
+</a>
+</div>
+
 
 # Types of Schools in Luxembourg
 
