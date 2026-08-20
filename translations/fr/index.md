@@ -30,14 +30,14 @@ lang: fr
 > Ce site n&#39;a pas pour but de critiquer le gouvernement ou le corps enseignant, ni de protéger ou d&#39;améliorer leur réputation, ni de plaider en faveur d&#39;une réforme. Il se veut une ressource pour aider les parents à faire de leur mieux pour leurs enfants dans le système actuel. 
 
 ## Commencez ici
-  - [Quelles informations sur les écoles sont accessibles au public ?](information.md)
-  - [Quelles écoles ont des problèmes de pollution ?](environment.md)
-  - [Quels types d&#39;écoles existent ?](types_of_schools.md)
-  - [Comment choisir une ou plusieurs langues ?](languages.md)
-  - [Que sait-on de cette école en particulier ?](schools/index.md)
-  - [Quel est le système mis en place pour les enfants ayant des besoins éducatifs particuliers ?](special_needs.md)
-  - [À quels préjugés et persécutions faut-il s&#39;attendre, et comment y faire face ?](prejudice_and_persecution.md)
-  - [Quels sont les droits et les obligations des parents ?](parents_rights.md)
+  - [Quelles informations sur les écoles sont accessibles au public ?](information)
+  - [Quelles écoles ont des problèmes de pollution ?](environment)
+  - [Quels types d&#39;écoles existent ?](types_of_schools)
+  - [Comment choisir une ou plusieurs langues ?](languages)
+  - [Que sait-on de cette école en particulier ?](schools/index)
+  - [Quel est le système mis en place pour les enfants ayant des besoins éducatifs particuliers ?](special_needs)
+  - [À quels préjugés et persécutions faut-il s&#39;attendre, et comment y faire face ?](prejudice_and_persecution)
+  - [Quels sont les droits et les obligations des parents ?](parents_rights)
   - Qu’est-ce qui fonctionne (a fonctionné) en pratique pour les parents et les enfants ?
 
 --- 

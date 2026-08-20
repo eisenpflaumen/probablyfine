@@ -85,7 +85,7 @@ To make this material easier to find, this site maintains a page for each school
 
 ### School Profiles
 
-- [School Directory](schools/index.md) may contain:
+- [School Directory](schools/index) may contain:
 
 - Basic facts
 - Educational programmes

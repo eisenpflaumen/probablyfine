@@ -30,14 +30,14 @@ lang: pt
 > Este site não tem a intenção de criticar o governo ou a profissão docente, nem de proteger ou melhorar suas reputações, nem de defender reformas. Ele foi concebido como um recurso para ajudar os pais a fazerem o melhor possível por seus filhos dentro do sistema atual. 
 
 ## Comece aqui
-  - [Que informações sobre as escolas estão disponíveis ao público?](information.md)
-  - [Quais escolas têm problemas de poluição?](environment.md)
-  - [Que tipos de escolas existem?](types_of_schools.md)
-  - [Como escolher um ou mais idiomas?](languages.md)
-  - [O que se sabe sobre essa escola em particular?](schools/index.md)
-  - [Qual é o sistema para crianças com necessidades educacionais especiais?](special_needs.md)
-  - [Que tipo de preconceito e perseguição esperar e como lidar com isso?](prejudice_and_persecution.md)
-  - [Quais são os direitos e obrigações dos pais?](parents_rights.md)
+  - [Que informações sobre as escolas estão disponíveis ao público?](information)
+  - [Quais escolas têm problemas de poluição?](environment)
+  - [Que tipos de escolas existem?](types_of_schools)
+  - [Como escolher um ou mais idiomas?](languages)
+  - [O que se sabe sobre essa escola em particular?](schools/index)
+  - [Qual é o sistema para crianças com necessidades educacionais especiais?](special_needs)
+  - [Que tipo de preconceito e perseguição esperar e como lidar com isso?](prejudice_and_persecution)
+  - [Quais são os direitos e obrigações dos pais?](parents_rights)
   - O que funciona (ou funcionou) na prática para pais e filhos?
 
 --- 

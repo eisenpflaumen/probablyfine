@@ -83,7 +83,7 @@ Fir dëst Material méi einfach ze fannen, huet dës Säit eng Säit fir all Sch
 
 ### Schoulprofiler
 
-- [Schoulverzeichnis](schools/index.md) kann enthalen:
+- [Schoulverzeichnis](schools/index) kann enthalen:
 
 - Grondfakten
 - Bildungsprogrammer

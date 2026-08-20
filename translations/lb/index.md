@@ -30,14 +30,14 @@ lang: lb
 > Dës Säit ass net geduecht fir d&#39;Regierung oder de Léierberuff ze kritiséieren, si ass och net geduecht fir hire Ruff ze schützen oder ze verbesseren, an si ass och net wierklech geduecht fir eng Reform ze plädéieren. Si ass als eng Ressource geduecht fir Elteren ze hëllefen, dat Bescht méiglecht fir hir Kanner am bestehenden System ze maachen. 
 
 ## Fänkt hei un
-  - [Wéi eng Informatiounen iwwer Schoulen sinn ëffentlech verfügbar?](information.md)
-  - [Wéi eng Schoulen hunn Problemer mat Verschmotzung?](environment.md)
-  - [Wat fir Zorte vu Schoule gëtt et?](types_of_schools.md)
-  - [Wéi wielt een eng Sprooch/Sproochen?](languages.md)
-  - [Wat ass iwwer dës spezifesch Schoul bekannt?](schools/index.md)
-  - [Wéi ee System ass fir Kanner mat besonnesche pädagogesche Besoinen?](special_needs.md)
-  - [Mat wéi enge Viruerteeler a Verfollegung kann een erwaarden, a wéi soll een domat ëmgoen?](prejudice_and_persecution.md)
-  - [Wat fir Rechter a Flichten hunn d&#39;Elteren?](parents_rights.md)
+  - [Wéi eng Informatiounen iwwer Schoulen sinn ëffentlech verfügbar?](information)
+  - [Wéi eng Schoulen hunn Problemer mat Verschmotzung?](environment)
+  - [Wat fir Zorte vu Schoule gëtt et?](types_of_schools)
+  - [Wéi wielt een eng Sprooch/Sproochen?](languages)
+  - [Wat ass iwwer dës spezifesch Schoul bekannt?](schools/index)
+  - [Wéi ee System ass fir Kanner mat besonnesche pädagogesche Besoinen?](special_needs)
+  - [Mat wéi enge Viruerteeler a Verfollegung kann een erwaarden, a wéi soll een domat ëmgoen?](prejudice_and_persecution)
+  - [Wat fir Rechter a Flichten hunn d&#39;Elteren?](parents_rights)
   - Wat funktionéiert (huet funktionéiert) fir Elteren a Kanner an der Praxis?
 
 --- 

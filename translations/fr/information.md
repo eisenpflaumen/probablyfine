@@ -83,7 +83,7 @@ Pour faciliter la recherche de ces informations, ce site propose une page pour c
 
 ### Profils des écoles
 
-- [Annuaire scolaire](schools/index.md) peut contenir :
+- [Annuaire scolaire](schools/index) peut contenir :
 
 - Faits de base
 - Programmes éducatifs

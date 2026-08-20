@@ -30,14 +30,14 @@ lang: de
 > Diese Website dient weder der Kritik an der Regierung oder dem Lehrerberuf, noch soll sie deren Ruf schützen oder verbessern, noch ist sie als Plädoyer für Reformen gedacht. Sie soll Eltern vielmehr als Ressource dienen, um im bestehenden System das Beste für ihre Kinder zu erreichen. 
 
 ## Hier beginnen
-  - [Welche Informationen über Schulen sind öffentlich zugänglich?](information.md)
-  - [Welche Schulen haben Probleme mit Umweltverschmutzung?](environment.md)
-  - [Welche Schularten gibt es?](types_of_schools.md)
-  - [Wie wählt man eine oder mehrere Sprachen aus?](languages.md)
-  - [Was ist über diese spezielle Schule bekannt?](schools/index.md)
-  - [Wie ist das System für Kinder mit sonderpädagogischem Förderbedarf?](special_needs.md)
-  - [Welchen Vorurteilen und welcher Verfolgung muss man begegnen, und wie geht man damit um?](prejudice_and_persecution.md)
-  - [Welche Rechte und Pflichten haben Eltern?](parents_rights.md)
+  - [Welche Informationen über Schulen sind öffentlich zugänglich?](information)
+  - [Welche Schulen haben Probleme mit Umweltverschmutzung?](environment)
+  - [Welche Schularten gibt es?](types_of_schools)
+  - [Wie wählt man eine oder mehrere Sprachen aus?](languages)
+  - [Was ist über diese spezielle Schule bekannt?](schools/index)
+  - [Wie ist das System für Kinder mit sonderpädagogischem Förderbedarf?](special_needs)
+  - [Welchen Vorurteilen und welcher Verfolgung muss man begegnen, und wie geht man damit um?](prejudice_and_persecution)
+  - [Welche Rechte und Pflichten haben Eltern?](parents_rights)
   - Was funktioniert (hat funktioniert) in der Praxis für Eltern und Kinder?
 
 --- 

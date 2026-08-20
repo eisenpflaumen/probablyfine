@@ -11,7 +11,7 @@ Luxembourg is obliged by EU law to carry out quite extensive monitoring of envir
 
 The map below shows mean lead deposition measured by Bergerhoff stations across Luxembourg.
 
-![Map of airbourne lead in Luxembourg](images/bergerhoff.png "Map of airborne lead for 2026 to date").
+![Map of airbourne lead in Luxembourg](/images/bergerhoff.png "Map of airborne lead for 2026 to date").
 
 - Marker opacity indicates mass of lead deposited per square metre per day, 100 microgrammes per day is fully opaque.
 - Values are averaged from monthly measurements of the given year.
@@ -84,6 +84,6 @@ Schools which are less than 100m from a high emission site, such that pollution 
 | Lycée Privé Emile Metz (LPEM) | Technical/vocational/general secondary school |
 
 
-The script used to plot the above map is available [here](src).
+The script used to plot the above map is available [here](/src/plot_berger.py).
 
 

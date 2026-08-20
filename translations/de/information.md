@@ -83,7 +83,7 @@ Um das Auffinden dieser Materialien zu erleichtern, bietet diese Website für je
 
 ### Schulprofile
 
-- [Schulverzeichnis](schools/index.md) kann enthalten:
+- [Schulverzeichnis](schools/index) kann enthalten:
 
 - Grundlegende Fakten
 - Bildungsprogramme

@@ -83,7 +83,7 @@ Para facilitar a localização deste material, este site mantém uma página par
 
 ### Perfis Escolares
 
-- [Diretório Escolar](schools/index.md) Pode conter:
+- [Diretório Escolar](schools/index) Pode conter:
 
 - Informações básicas
 - Programas educacionais
