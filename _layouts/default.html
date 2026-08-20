@@ -16,14 +16,10 @@
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% endif %}
       </header>
       <section>
 
@@ -35,13 +31,8 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-
     <hr style="margin-top:3em; opacity:0.2">
-
     <!-- Small decorative element, to verify the layout has been applied -->
     <div style="text-align:center;font-size:0.8em;color:#888;margin-top:1em;"> 🌿 </div>
-
-
-
   </body>
 </html>
