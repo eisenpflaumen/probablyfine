@@ -1,12 +1,11 @@
 ---
 layout: default
-lang: en
+lang: None
 stem: parents_rights
 ---
-
 <div class="language-switcher">
 <a href="/translations/None/{{page.stem}}">
-   <img src="/images/gb.svg" alt="English" class="current">
+   <img src="/images/gb.svg" alt="English" >
 </a>
 <a href="/translations/fr/{{page.stem}}">
    <img src="/images/fr.svg" alt="Français">
