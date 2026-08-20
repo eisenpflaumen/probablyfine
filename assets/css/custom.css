@@ -1,0 +1,15 @@
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+section {
+    line-height: 1.6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
