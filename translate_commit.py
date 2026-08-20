@@ -194,18 +194,19 @@ def parse_markdown(md: str):
         #
         # Preserved acronymns (they are in french, but nobody cares)
         # 
-        hit = False
+        ackhit = False
         for ack in ["EIDE", "EIGT"]:
             if md.startswith(ack, pos):
                 if text_start < pos:
                     fragments.append(Fragment("text", md[text_start:pos]))
-                end += len(ack)
+                end = pos + len(ack)
                 fragments.append(Fragment("code", md[pos:end]))
                 pos        = end
                 text_start = pos
-                hit = True
+                ackhit = True
                 break
-            if hit : continue
+        if ackhit is True: 
+            continue
             
         ##not matched as start of a tag, so advance by 1
         pos += 1
