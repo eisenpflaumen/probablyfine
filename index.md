@@ -4,19 +4,19 @@ lang: en
 ---
 
 <div class="language-switcher">
-<a href="translations/None/index">
+<a href="/translations/None/index">
    <img src="/images/gb.svg" alt="English" class="current">
 </a>
-<a href="translations/fr/index">
+<a href="/translations/fr/index">
    <img src="/images/fr.svg" alt="Français">
 </a>
-<a href="translations/lb/index">
+<a href="/translations/lb/index">
    <img src="/images/lu.svg" alt="Letzeburgesch">
 </a>
-<a href="translations/pt/index">
+<a href="/translations/pt/index">
    <img src="/images/pt.svg" alt="Português">
 </a>
-<a href="translations/uk/index">
+<a href="/translations/uk/index">
    <img src="/images/ua.svg" alt="українська мова">
 </a>
 </div>
