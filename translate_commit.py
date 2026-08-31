@@ -234,21 +234,39 @@ def reconstruct(fragments):
 
 def translate(text: str, target_lang: str) -> str:
     fragments = parse_markdown(text)
-    for f in fragments:
+    for f in  fragments:
+
         if f.kind == "text" and f.text != " ":
 
             print("translating source text: %s to lang: %s" % (f.text, target_lang))
 
-            cached = get_cached_translation( f.text, "en", target_lang)
+            ##strip leading nonalphanumerics.
+            from_pt  = 0
+            while f.text[from_pt] in " .?!":
+               from_pt += 1
+               if from_pt >= len( f.text ):
+                   break
+
+            pre_text = ""
+            use_text = f.text
+            if from_pt > 0:
+               pre_text = f.text[:from_pt]
+            if from_pt < len( f.text ):
+               use_text = f.text[from_pt:]
+            else:
+               continue
+                 
+            cached = get_cached_translation( use_text, "en", target_lang)
             if cached:
                 print("Cache hit:", cached)
-                f.text = cached
+                f.text = pre_text + cached
             else:
                 orig_text = f.text
                 if target_lang != "None":
-                    f.text    = translate_api( orig_text, target_lang ) 
+                    f.text    = pre_text + translate_api( use_text, target_lang ) 
                     print("Translation: ", f.text )              
-                store_translation( orig_text, f.text, 'en', target_lang )
+                store_translation( use_text, f.text, 'en', target_lang )
+
         if f.kind != "text" and "lang: en" in f.text:
             f.text = f.text.replace("lang: en", "lang: %s" % target_lang)
 
