@@ -2,7 +2,8 @@
 layout: default
 lang: None
 stem: environment
----<div class="language-switcher">
+---
+<div class="language-switcher">
 <a href="/translations/None/{{page.stem}}">
    <img src="/images/gb.svg" alt="English" >
 </a>
@@ -21,7 +22,8 @@ stem: environment
 <a href="/translations/uk/{{page.stem}}">
    <img src="/images/ua.svg" alt="українська мова">
 </a>
-</div># EnvironmentLuxembourg is obliged by EU law to carry out quite extensive monitoring of environmental observables, however acting on pollution is primarily at the discretion of the local government. Your role as a citizen is to monitor the data for your commune and complain to the ministry or to the courts when it exceeds acceptable levels.## Lead Deposition MapThe map below shows mean lead deposition measured by Bergerhoff stations across Luxembourg.[!Map of airbourne lead in Luxembourg.](/images/bergerhoff.png "Map of airborne lead for 2026 to date")- Marker opacity indicates mass of lead deposited per square metre per day, 100 microgrammes per day is fully opaque.
+</div>
+# EnvironmentLuxembourg is obliged by EU law to carry out quite extensive monitoring of environmental observables, however acting on pollution is primarily at the discretion of the local government. Your role as a citizen is to monitor the data for your commune and complain to the ministry or to the courts when it exceeds acceptable levels.## Lead Deposition MapThe map below shows mean lead deposition measured by Bergerhoff stations across Luxembourg.[!Map of airbourne lead in Luxembourg.](/images/bergerhoff.png "Map of airborne lead for 2026 to date")- Marker opacity indicates mass of lead deposited per square metre per day, 100 microgrammes per day is fully opaque.
 - Values are averaged from monthly measurements of the given year.No data is collected for lead outside the industrial / postindustrial areas of concern in the South. High concentrations (above the reference value 100 microgrammes/m2/day) are shown near to the Arcelor Mittal recycling plant in central Differdange, and near to the steel rolling plant in Belval (west of Esch-Sur-Alzette). Significant amounts of lead are present at almost every station, however the amount does decrease with distance from the major sites of concern. A US study has indicated that the harm from exposure to airborne lead drops by roughly half at a distance of 50 miles (80 kilometres) from the source [NBER working paper.](https://www.nber.org/system/files/working_papers/w28250/w28250.pdf) Luxembourg is approximately 60 km wide.## Data OverviewPublicly available data includes:- Real-time air quality ("air quality" in a general sense, the focus is on dust/smoke and on traffic fumes)
 - Airbourne heavy metals (measured per month, only near to likely sources of pollution)
 - Noise
