@@ -13,6 +13,9 @@ lang: None
 <a href="/translations/lb/index">
    <img src="/images/lu.svg" alt="Letzeburgesch">
 </a>
+<a href="/translations/de/index">
+   <img src="/images/de.svg" alt="Deutsch">
+</a>
 <a href="/translations/pt/index">
    <img src="/images/pt.svg" alt="Português">
 </a>
@@ -30,16 +33,27 @@ lang: None
 > This site is not intended to criticise the government or the teaching profession, nor is it intended to protect or enhance their reputations, nor is it really intended as advocacy for reform. It is envisioned as a resource to help parents to do the best possible for their children in the system as it exists.
 
 ## Start Here
-  - [What information on schools is publicly available?](information)
-  - [Which schools have pollution problems?](environment)
-  - [What types of schools exist?](types_of_schools)
-  - [How to choose a language/languages?](languages)
-  - [What is known about this particular school?](schools/index)
-  - [What is the system for kids with special education needs?](special_needs)
-  - [What prejudice and persecution to expect, how to deal with it?](prejudice_and_persecution)
-  - [What rights and obligations do parents have?](parents_rights)
-  - What works (has worked) for parents and children in practice?
+
+- [What information on schools is publicly available?](information)
+
+- [Which schools have pollution problems?](environment)
+
+- [What types of schools exist?](types_of_schools)
+
+- [How to choose a language/languages?](languages)
+
+- [What is known about this particular school?](schools/index)
+
+- [What is the system for kids with special education needs?](special_needs)
+
+- [What prejudice and persecution to expect, how to deal with it?](prejudice_and_persecution)
+
+- [What rights and obligations do parents have?](parents_rights)
+
+- What works (has worked) for parents and children in practice?
 
 --- 
+
+
 This is a community-maintained site and is not affiliated with the Luxembourg Ministry of Education or any other public authority. Reasonable efforts are made to cite sources, check facts and correct errors. Nevertheless, this site is maintained by volunteers and may contain omissions, inaccuracies or outdated information. Readers should consult official sources where authoritative information is required. Corrections, additional sources and suggestions are welcome.
 

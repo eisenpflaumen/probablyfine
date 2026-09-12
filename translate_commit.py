@@ -38,9 +38,18 @@ import sqlite3
 from typing import Optional
 DB_FILE = "translation_cache.db"
 
+##import local modules
+import parse_markdown  as pmd
+
+##The aligner has the annoying habit of checking online for weights updates
+##every time the script is run. 
+import align_sentences as align 
+
 
 ##"uk" is ukrainian.
 LANGS = ["None", "fr", "de", "pt", "lb", "uk"] #, "ar"]
+
+#LANGS = ["fr"]
 
 ##strings not to translate
 do_not_translate =  ["EIDE", "EIGT", "EIMAB", "LML", "Liewen a Leieren"]
@@ -60,232 +69,484 @@ def load_api_key():
 
 ##probably shouldn't have it in global memory either but hey. Actual use of this key is quite restricted.
 API_KEY = load_api_key()
+import re
+from dataclasses import dataclass
 
 @dataclass
-class Fragment:
-    kind: str      # "text" or "code"
-    text: str
+class AlignedWord:
+    start: int
+    end: int
+    quality: float
 
-def parse_markdown(md: str):
-    fragments = []
-    pos       = 0
-    n         = len(md)
+@dataclass
+class Insertion:
+    words: list[AlignedWord]
+    annotation: object
 
-    ## YAML front matter
-    if md.startswith("---\n"):
-        end = md.find("\n---\n", 4)
-        if end != -1:
-            end += len("\n---\n")
-            fragments.append(
-                Fragment( "code", md[:end] )
-            )
-            pos = end
+WORD_RE = re.compile(r"\S+")
+def get_word_spans(text):
+    """
+    Returns:
+        [(start,end), ...]
+    """
+    return [
+        (m.start(), m.end())
+        for m in WORD_RE.finditer(text)
+    ]
 
-    ## language switcher
-    start_tag = r'<div class="language-switcher">'        
-    end_tag   = r'<\div>'
-    
-    # Skip whitespace
-    while pos < len(md) and md[pos].isspace(): 
-        pos += 1
 
-    switcher_end = -1    
-    if md.startswith(start_tag, pos):
-        switcher_start = pos
-        switcher_end = md.find(r"</div>", switcher_start)
-    
-    if switcher_end == -1:
-        raise ValueError("Unterminated language switcher")
-    switcher_end += len(r"</div>")
-    switcher = md[switcher_start:switcher_end]
-    pos      = switcher_end
-    ###edit the switcher block with string replacements, later.
-    fragments.append( Fragment("code", switcher ) )
+def build_insertions(src_text, tgt_text, annotations, alignments):
+    """
+    It is a surprising faff to map one lot of words to another lot.
 
-    text_start = pos
-    while pos < n:
+    annotations:
+        list of Link/Emphasis objects, expressed
+        in source character coordinates.
 
-        ##single preserved characters
-        if md[pos] in ">0123456789[]*#" or md[pos] == "\n":
-            if text_start < pos:
-                fragments.append(
-                    Fragment("text", md[text_start:pos])
-                )
-            fragments.append(
-                Fragment( "code", md[pos])
-            )  
-            pos        += 1
-            text_start  = pos
-            continue
+    alignments:
+        dict mapping source word coordinates
+        -> target word coordinates.
 
-        ##multichar formatting
-        if pos <= len(md) - 3:
-            if md[pos:pos+3]  == " - " or md[pos:pos+3]  == "---":
-                if text_start < pos:
-                    fragments.append(
-                        Fragment("text", md[text_start:pos])
-                    )
-                fragments.append(Fragment( "code", md[pos:pos+3]))
-                pos        += 3
-                text_start  = pos
-                continue
+    Returns:
+        list of Insertion objects sorted descending.
+    """
 
-        # -------------------------
-        # fenced code block
-        # -------------------------
-        if md.startswith("```", pos):
-            if text_start < pos:
-                fragments.append(
-                    Fragment("text", md[text_start:pos])
-                )
-            end = md.find("```", pos + 3)
-            if end == -1:
-                end  = n
-            else:
-                end += 3
-            fragments.append(
-                Fragment("code", md[pos:end])
-            )
-            pos        = end
-            text_start = pos
-            continue
+    src_words = get_word_spans(src_text)
+    tgt_words = get_word_spans(tgt_text)
 
-        # -------------------------
-        # inline code or single-quoted string
-        #
-        # with awkward nested conditional to catch German "idiot's apostrophe".
-        # -------------------------
-        if md[pos] in  "`'" and\
-            not( md[pos] == "'" and pos > 0 and md[pos-1] != " " ):
-               
-            if text_start < pos:
-                fragments.append(
-                    Fragment( "text", md[text_start:pos] )
-                )
-            end = md.find(md[pos], pos + 1)
-            if end == -1:
-                pos += 1
-                continue
-            end += 1
-            fragments.append(
-                Fragment( "code", md[pos:end])
-            )
-            pos        = end
-            text_start = pos
-            continue
- 
-        #
-        # link text in markdown
-        # 
-        if pos > 0 and md[pos] == "(" and md[pos-1] == "]":
-            if text_start < pos:
-                fragments.append(
-                    Fragment( "text", md[text_start:pos] )
-                )
-            end = md.find(")", pos + 1)
-            if end == -1:
-                pos += 1
-                continue
-            end += 1
-            fragments.append(
-                Fragment( "code", md[pos:end])
-            )
-            pos        = end
-            text_start = pos
-            continue
+    insertions = []
+    for ann in annotations:
+        print("\n processing annotation: ", ann)
 
         #
-        # Preserved acronymns (they are in french, but nobody cares)
-        # 
-        ackhit = False
-        for ack in do_not_translate:
-            if md.startswith(ack, pos):
-                if text_start < pos:
-                    fragments.append(Fragment("text", md[text_start:pos]))
-                end = pos + len(ack)
-                fragments.append(Fragment("code", md[pos:end]))
-                pos        = end
-                text_start = pos
-                ackhit = True
-                break
-        if ackhit is True: 
+        # Find source words touched by this annotation
+        # and match to target text.
+        #
+        aligned_tgt_words = []
+        for src_word_start, src_word_end in src_words:
+
+            overlaps = (src_word_end   > ann.start and
+                        src_word_start < ann.end )
+            w = src_text[src_word_start: src_word_end]
+            if not overlaps:
+                continue
+            if (src_word_start,src_word_end) not in alignments:
+                raise ValueError("error, no word alignment for %s" % w)
+                
+            ##possibly can have one-to-many mapping, for now just pick the best target word 
+            (tgt_start,tgt_end), q = alignments[(src_word_start,src_word_end)][0]
+            aligned_tgt_words.append( AlignedWord(tgt_start,tgt_end,q) )  
+
+        if not aligned_tgt_words:
+            raise ValueError("no alignment found for ", ann)
+
+        print("raw alignment is to: ")
+        for w in aligned_tgt_words: print("   "+tgt_text[w.start:w.end], w.quality)
+
+        insertions.append( Insertion( annotation=ann, words=aligned_tgt_words ) )
+     
+    insertions.sort( key=lambda ins: max(w.quality for w in ins.words), reverse=True )
+    return insertions
+
+def remove_trapped_fragments( claimed ):
+    """
+    resolve conflicts / overlaps between text alignments
+    """
+    runs = [] ##a "run" is a contiguous block
+    i    = 0
+    while i < len(claimed): ##scan the list of source words claiming a target.
+        if claimed[i] is None:
+            i += 1
             continue
-            
-        ##not matched as start of a tag, so advance by 1
-        pos += 1
 
-      
+        ##continuous block
+        owner = claimed[i][0]
+        start = i
+        while ( i < len(claimed) and
+                claimed[i] is not None and
+                claimed[i][0] == owner ):
+            i += 1
 
-    if text_start < n:
-        fragments.append(
-            Fragment(
-                "text",
-                md[text_start:]
-            )
+        runs.append({"owner":owner, "start":start, "end":i, "length": i-start,})
+
+    # Group runs by owner
+    by_owner = {}
+    for r in runs:
+        by_owner.setdefault(id( r["owner"] ), []).append(r)
+
+    #
+    # For each owner keep the largest run.
+    #
+    for _, owner_runs in by_owner.items():
+        if len(owner_runs) < 2:
+            continue
+        main = max(owner_runs, key=lambda r: r["length"])
+        for r in owner_runs:
+            if r is main:
+                continue
+
+            #
+            # Check whether another annotation lies between
+            # this run and the main run.
+            #
+            lo = min(r["end"], main["end"])
+            hi = max(r["start"], main["start"])
+
+            trapped = False
+            for k in range(lo, hi):
+                if claimed[k] is None:
+                    continue
+                if claimed[k][0] != owner:
+                    trapped = True
+                    break
+
+            if trapped:
+                for k in range(r["start"], r["end"]):
+                    claimed[k] = None
+
+    return claimed
+
+def bridge_gaps(text, claimed, max_gap=56):
+
+    """
+    Close gaps where an annotation covers multiple words but misses "of"s or similar
+    ambiguous or low-weight linking words
+    """
+    i = 0
+    while i < len(claimed):
+        # Find a gap.
+        if claimed[i] is not None:
+            i += 1
+            continue
+        gap_start = i
+        while i < len(claimed) and claimed[i] is None:
+            i += 1
+        gap_end = i
+
+        # Too large to bridge
+        gap_len = gap_end - gap_start
+        if gap_len > max_gap:
+            continue
+
+        # Gap at start/end of sentence.
+        if gap_start == 0 or gap_end >= len(claimed):
+            continue
+
+        lhs     = claimed[gap_start - 1]
+        rhs     = claimed[gap_end]
+        if lhs is None or rhs is None:
+            continue
+        lhs_ins = lhs[0]
+        rhs_ins = rhs[0]
+
+        # Only bridge same annotation.
+        if lhs_ins != rhs_ins:
+            continue
+        
+        # Don´t cross a newline
+        if "\n" in text[gap_start:gap_end]:
+            continue
+
+        # Fill the gap.
+        q = min(lhs[2], rhs[2])
+        for j in range(gap_start, gap_end):
+            claimed[j] = (lhs_ins, None, q)
+
+    return claimed
+
+def enforce_uniqueness(claimed):
+
+    """
+    Make sure that a given annotation is only inserted once.
+    """
+    runs = []
+    i    = 0
+    while i < len(claimed):
+
+        if claimed[i] is None:
+            i += 1
+            continue
+        owner = claimed[i][0]
+        start = i
+        while ( i < len(claimed)
+                and claimed[i] is not None
+                and claimed[i][0] == owner ):
+            i += 1
+
+        runs.append(
+            (owner, start, i, i - start)
         )
 
-    return fragments
+    #
+    # Group by owner.
+    #
+    by_owner = {}
+    for r in runs:
+        owner = id( r[0] )
+        by_owner.setdefault(owner, []).append(r)
 
-def reconstruct(fragments):
-    return "".join(
-        f.text
-        for f in fragments
-    )
+    #
+    # Keep largest run only.
+    #
+    for _, owner_runs in by_owner.items():
+        if len(owner_runs) < 2:
+            continue
+        main = max(owner_runs, key=lambda r: r[3])
+        for r in owner_runs:
+            if r is main:
+                continue
+            _, start, end, _ = r
+            for i in range(start, end):
+                claimed[i] = None
 
-def translate(text: str, target_lang: str) -> str:
-    fragments = parse_markdown(text)
-    for f in  fragments:
+    return claimed
 
-        if f.kind == "text" and f.text != " ":
+def extract_insertions(claimed, text):
+    """
+    convert the vector of character claims back into a list of insertions to make
+    """
+    runs = []
+    i    = 0
+    while i < len(claimed):
 
-            print("translating source text: %s to lang: %s" % (f.text, target_lang))
+        if claimed[i] is None:
+            i += 1
+            continue
 
-            ##strip leading nonalphanumerics.
-            from_pt  = 0
-            while f.text[from_pt] in " .?!":
-               from_pt += 1
-               if from_pt >= len( f.text ):
-                   break
+        ann   = claimed[i][0].annotation
+        start = i
+        while (i < len(claimed) and
+               claimed[i] is not None and
+               claimed[i][0].annotation == ann):
+            i += 1
 
-            pre_text = ""
-            use_text = f.text
-            if from_pt > 0:
-               pre_text = f.text[:from_pt]
-            if from_pt < len( f.text ):
-               use_text = f.text[from_pt:]
-            else:
-               continue
-                 
-            cached = get_cached_translation( use_text, "en", target_lang)
-            if cached:
-                print("Cache hit:", cached)
-                f.text = pre_text + cached
-            else:
-                orig_text = f.text
-                if target_lang != "None":
-                    f.text    = pre_text + translate_api( use_text, target_lang ) 
-                    print("Translation: ", f.text )              
-                store_translation( use_text, f.text, 'en', target_lang )
+        ##don´t annotate trailing whitespace
+        ii = i 
+        while ii > start and text[ii-1].isspace():
+           ii -= 1
+        print("appending annotation run: "+text[start:ii])
+        
+        runs.append((start, ii, ann))
 
-        if f.kind != "text" and "lang: en" in f.text:
-            f.text = f.text.replace("lang: en", "lang: %s" % target_lang)
+    return runs
 
-        if f.kind != "text" and "language-switcher" in f.text:
-            lines = f.text.split("\n")
-            lines_out = []
-            current   = False
-            for L in lines:
-                if 'class="current"' in L:
-                    L = L.replace( 'class="current"', '' )
-                if current is True:
-                    L = L.replace( '">', '" class="current">' )
-                    current = False
-                if "translations/%s" % target_lang in L:
-                    current = True
-                lines_out.append( L )
-            f.text = "\n".join( lines_out ) 
-            
-    return reconstruct(fragments)
+
+def chop_at_linebreak(claimed, text):
+    """
+    Enforce no multiline annotations.
+    If an annotation spans multiple lines, keep only the
+    highest-confidence fragment.
+    """
+
+    i = 0
+    while i < len(claimed):
+
+        if claimed[i] is None:
+            i += 1
+            continue
+
+        owner = claimed[i][0]
+        start = i
+        while (i < len(claimed) and
+               claimed[i] is not None and
+               claimed[i][0] == owner):
+            i += 1
+        end = i
+        if "\n" not in text[start:end]:
+            continue
+
+        frags  = []
+        fstart = start
+        score  = 0.0
+        for j in range(start, end):
+
+            if claimed[j] is not None:
+                score += claimed[j][2]
+            if text[j] == "\n":
+                frag_end = j
+                while (fstart < frag_end and
+                       text[fstart] in "\r\n"):
+                    fstart += 1
+                while (frag_end > fstart and
+                       text[frag_end - 1] in "\r\n"):
+                    frag_end -= 1
+                frags.append((fstart, frag_end, score))
+                fstart = j + 1
+                score  = 0.0
+
+        #
+        # Final fragment.
+        #
+        frag_end = end
+        while (fstart < frag_end and
+               text[fstart] in "\r\n"):
+            fstart += 1
+        while (frag_end > fstart and
+               text[frag_end - 1] in "\r\n"):
+            frag_end -= 1
+        frags.append((fstart, frag_end, score))
+        keep = max(frags, key=lambda f: f[2])
+
+        for s, e, q in frags:
+            if (s, e, q) == keep:
+                continue
+            for j in range(s, e):
+                claimed[j] = None
+
+    return claimed
+
+def rebuild_chunk(chunk, target_lang = None):
+    """
+    Take a Chunk dataclass object, with text and markdown parsed-out
+    and reassemble it into marked-down (marked-up) text.
+    """
+    if target_lang is not None:
+       alignment_map = align.align( chunk.text, chunk.new_text )
+    else:
+       ##build a trivial alignment map
+       matches = list(re.finditer(r'\S+', chunk.text))
+       src_offsets   = [(m.start(), m.end()) for m in matches]
+       alignment_map = {}
+       for s in src_offsets:
+           alignment_map[s] = (s, 1.) ##unique alignment with max quality 1.
+
+
+    text       = chunk.new_text
+    insertions = build_insertions(chunk.text, chunk.new_text, chunk.annotations, alignment_map)
+
+    #for each char in the new text, log which word has claimed it and with what 
+    #confidence level.
+    claimed = [None] * len(text)
+    for ins in insertions: ##sorting downwards by insertion confidence
+        ann = ins.annotation
+        for idx, w in enumerate( ins.words ):
+            survives = False #this flag tracks if some part of the insertion is present
+            for i in range(w.start, w.end):
+               old   = claimed[i]
+               old_q = 0.
+               if old is not None:
+                   old_q = old[2]
+               if old is None or w.quality > old_q:
+                   claimed[i] = (ins, idx, w.quality)
+                   survives = True 
+            w.survives = survives     
+    
+    # (single) repair pass:
+    # any annotation with zero surviving words gets its best word back.
+    #
+    for ins in insertions:                        
+        if any(w.survives for w in ins.words): continue
+        best_idx = max( range(len(ins.words)),
+                        key=lambda i: ins.words[i].quality )
+        best          = ins.words[best_idx]
+        best.survives = True
+        for i in range(best.start, best.end):
+            claimed[i] = (ins, best_idx, best.quality)
+        print("resolved(?) clash. Claimed word is: ", best) 
+
+    ## resolve interleaved annotations
+    claimed = remove_trapped_fragments( claimed )
+    
+    ## fill small gaps in annotations
+    claimed = bridge_gaps( text, claimed )
+
+    ##delete any remaining stragglers
+    claimed = enforce_uniqueness( claimed ) 
+
+    ## for now, enforce no multiline annotations
+    claimed = chop_at_linebreak( claimed, text )
+    
+    
+    to_ins  = extract_insertions( claimed, text ) ##return as list of tuples (start, end, annotation)
+    to_ins.sort(key=lambda x: x[0], reverse=True)
+    for start, end, ann in to_ins:
+        ##URL 
+        if isinstance(ann, pmd.Link):
+ 
+            print( "adding annotation: ", ann )
+            print( "to text: ", text[start:end] )
+
+            body = text[start:end]
+            text = text[:start] +\
+                     "[" + text[start:end] + "]" +\
+                     "(" + ann.url + ")" +\
+                   text[end:] 
+
+        ##emphasis (or in general, paired markers wrapped around text)
+        elif isinstance(ann, pmd.Emphasis):
+            body = text[start:end]
+            text = text[:start] +\
+                     ann.marker + body + ann.marker  +\
+                      text[end:] 
+
+    ##prefix annotations like ">" for a markdown block quote.
+    chunk.new_mdtext = chunk.prefix + text
+
+    return chunk
+
+def translate( text, target_lang: str) -> str:
+
+    chunks = pmd.parse_markdown(text)
+
+    for c in chunks:
+
+        print("translating source text: %s to lang: %s" % (c.text, target_lang))
+        if c.skip:
+            print("skipping")
+            c.new_mdtext = c.old_mdtext
+
+            ###hacks to update the language metadata for the page.
+            if "lang: en" in c.new_mdtext:
+                c.new_mdtext = c.new_mdtext.replace("lang: en", "lang: %s" % target_lang)
+
+            if "language-switcher" in c.new_mdtext:
+                lines = c.new_mdtext.split("\n")
+                lines_out = []
+                current   = False
+                for L in lines:
+                    if 'class="current"' in L:
+                        L = L.replace( 'class="current"', '' )
+                    if current is True:
+                        L = L.replace( '">', '" class="current">' )
+                        current = False
+                    if "translations/%s" % target_lang in L:
+                        current = True
+                    lines_out.append( L )
+                c.new_mdtext = "\n".join( lines_out )
+            continue
+        
+        ##save not just translated text but translated+annotated
+        ##because parsing annotations requires sentence alignment, which is slow.
+        cached = get_cached_translation( c.old_mdtext, "en", target_lang)
+        if cached:
+            print("Cache hit:", cached)
+            c.new_mdtext = cached
+            continue
+
+        ##if we get this far then we have to do some actual work.
+        orig_text = c.text
+        if target_lang != "None":
+
+            ##translate the raw text
+            c.new_text    = translate_api( c.text, target_lang ) 
+            print("Translation: ", c.new_text )  
+        else:
+            c.new_text = c.text
+
+        ##need to align and rebuild the markdown.
+        ##prefixes and annotations (including urls) are re-added here.
+        rebuild_chunk( c, target_lang )
+
+        ##save the translated text to cache
+        if target_lang != None:
+            store_translation( c.old_mdtext, c.new_mdtext, 'en', target_lang )
+           
+    out_text = ""
+    for c in chunks:
+       out_text = out_text + c.new_mdtext + "\n\n" 
+ 
+    return out_text
+
 
 def translate_api( text, target_lang ):
     """

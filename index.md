@@ -13,6 +13,9 @@ lang: en
 <a href="/translations/lb/index">
    <img src="/images/lu.svg" alt="Letzeburgesch">
 </a>
+<a href="/translations/de/index">
+   <img src="/images/de.svg" alt="Deutsch">
+</a>
 <a href="/translations/pt/index">
    <img src="/images/pt.svg" alt="Português">
 </a>

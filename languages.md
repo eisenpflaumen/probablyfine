@@ -14,6 +14,9 @@ stem: languages
 <a href="/translations/lb/{{page.stem}}">
    <img src="/images/lu.svg" alt="Letzeburgesch">
 </a>
+<a href="/translations/de/{{page.stem}}">
+   <img src="/images/de.svg" alt="Deutsch">
+</a>
 <a href="/translations/pt/{{page.stem}}">
    <img src="/images/pt.svg" alt="Português">
 </a>

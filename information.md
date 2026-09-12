@@ -14,6 +14,9 @@ lang: en
 <a href="/translations/lb/information">
    <img src="/images/lu.svg" alt="Letzeburgesch">
 </a>
+<a href="/translations/de/{{page.stem}}">
+   <img src="/images/de.svg" alt="Deutsch">
+</a>
 <a href="/translations/pt/information">
    <img src="/images/pt.svg" alt="Português">
 </a>

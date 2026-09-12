@@ -1,0 +1,14 @@
+language-switcher {
+text-align: right;
+margin-bottom: 1em;
+}
+
+.language-switcher img {
+width: 32px;
+margin-left: 6px;
+border: 2px solid white;
+}
+
+.language-switcher img.current {
+border: 2px solid grey;
+}

@@ -2,6 +2,7 @@
 layout: default
 lang: de
 ---
+
 <div class="language-switcher">
 <a href="/translations/None/index">
    <img src="/images/gb.svg" alt="English" >
@@ -12,6 +13,9 @@ lang: de
 <a href="/translations/lb/index">
    <img src="/images/lu.svg" alt="Letzeburgesch">
 </a>
+<a href="/translations/de/index">
+   <img src="/images/de.svg" alt="Deutsch" class="current">
+</a>
 <a href="/translations/pt/index">
    <img src="/images/pt.svg" alt="Português">
 </a>
@@ -20,25 +24,36 @@ lang: de
 </a>
 </div>
 
-
 # Vermutlich in Ordnung
 
-> **Vermutlich in Ordnung** ist eine unabhängige Informationsseite, die die Struktur, die Verwaltung, die Richtlinien und die öffentlich zugänglichen Informationen zur Betreuung und Bildung von Kindern in Luxemburg dokumentiert. Eltern lernen gemeinsam mit ihren Kindern: Wir haben ein komplexes System, in dem es schwierig sein kann, ein Kind zu begleiten.  
+> **Probably Fine** ist eine unabhängige Informationsseite, die die Struktur, die Verwaltung, die Richtlinien und die öffentlich zugänglichen Informationen zur Betreuung und Bildung von Kindern in Luxemburg dokumentiert. Eltern lernen gemeinsam mit ihren Kindern: Wir haben ein komplexes System, in dem es schwierig sein kann, ein Kind zu begleiten.
 
 > Der Schwerpunkt liegt auf Quellen, institutionellem Wissen und öffentlich zugänglichen Informationen: Diese Website soll konstruktive Orientierungshilfe auf Basis verifizierbarer Daten bieten. Sie entstand aus den immer gleichen Fragen, die auf Facebook unzählige Male gestellt wurden: „Ist diese Schule in Ordnung?“, „Ist diese Kommune ein geeigneter Ort für meine Familie?“, „Welche Sprache sollte mein Kind sprechen?“, „Wie kann ich das Problem X, das ich in der Schule sehe, lösen?“
 
-> Diese Website dient weder der Kritik an der Regierung oder dem Lehrerberuf, noch soll sie deren Ruf schützen oder verbessern, noch ist sie als Plädoyer für Reformen gedacht. Sie soll Eltern vielmehr als Ressource dienen, um im bestehenden System das Beste für ihre Kinder zu erreichen. 
+> Diese Website dient weder der Kritik an der Regierung oder dem Lehrerberuf, noch soll sie deren Ruf schützen oder verbessern, noch ist sie als Plädoyer für Reformen gedacht. Sie soll Eltern vielmehr als Ressource dienen, um im bestehenden System das Beste für ihre Kinder zu erreichen.
 
 ## Hier beginnen
-  - [Welche Informationen über Schulen sind öffentlich zugänglich?](information)
-  - [Welche Schulen haben Probleme mit Umweltverschmutzung?](environment)
-  - [Welche Schularten gibt es?](types_of_schools)
-  - [Wie wählt man eine oder mehrere Sprachen aus?](languages)
-  - [Was ist über diese spezielle Schule bekannt?](schools/index)
-  - [Wie ist das System für Kinder mit sonderpädagogischem Förderbedarf?](special_needs)
-  - [Welchen Vorurteilen und welcher Verfolgung muss man begegnen, und wie geht man damit um?](prejudice_and_persecution)
-  - [Welche Rechte und Pflichten haben Eltern?](parents_rights)
-  - Was funktioniert (hat funktioniert) in der Praxis für Eltern und Kinder?
+
+- [Welche Informationen über Schulen sind öffentlich zugänglich?](information)
+
+- [Welche Schulen haben Probleme mit Umweltverschmutzung?](environment)
+
+- [Welche Schularten gibt es?](types_of_schools)
+
+- [Wie wählt man eine oder mehrere Sprachen](languages) aus?
+
+- [Was ist über diese spezielle Schule bekannt?](schools/index)
+
+- Wie [ist das System für Kinder mit sonderpädagogischem Förderbedarf?](special_needs)
+
+- [Welchen Vorurteilen und welcher Verfolgung muss man begegnen, und wie geht man damit um?](prejudice_and_persecution)
+
+- [Welche Rechte und Pflichten haben Eltern?](parents_rights)
+
+- Was funktioniert (hat funktioniert) in der Praxis für Eltern und Kinder?
 
 --- 
+
+
 Diese Website wird von der Community betrieben und steht in keiner Verbindung zum luxemburgischen Bildungsministerium oder einer anderen öffentlichen Behörde. Wir bemühen uns nach besten Kräften, Quellen anzugeben, Fakten zu überprüfen und Fehler zu korrigieren. Da diese Website jedoch von Freiwilligen gepflegt wird, können Auslassungen, Ungenauigkeiten oder veraltete Informationen enthalten sein. Für verlässliche Informationen konsultieren Sie bitte offizielle Quellen. Korrekturen, zusätzliche Quellen und Anregungen sind willkommen.
+
