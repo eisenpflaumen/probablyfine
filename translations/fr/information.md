@@ -2,15 +2,20 @@
 layout: default
 lang: fr
 ---
+
+
 <div class="language-switcher">
 <a href="/translations/None/information">
-   <img src="/images/gb.svg" alt="English" >
+   <img src="/images/gb.svg" alt="English" class="current">
 </a>
 <a href="/translations/fr/information">
-   <img src="/images/fr.svg" alt="Français" class="current">
+   <img src="/images/fr.svg" alt="Français">
 </a>
 <a href="/translations/lb/information">
    <img src="/images/lu.svg" alt="Letzeburgesch">
+</a>
+<a href="/translations/de/{{page.stem}}">
+   <img src="/images/de.svg" alt="Deutsch">
 </a>
 <a href="/translations/pt/information">
    <img src="/images/pt.svg" alt="Português">
@@ -33,18 +38,18 @@ L&#39;accent est mis sur les informations relatives à la qualité de l&#39;édu
 
 Le Rapport national sur l&#39;éducation est l&#39;analyse périodique la plus complète du système éducatif luxembourgeois, généralement disponible en français et en allemand.
 
-- [Rapport sur l&#39;éducation 2024](https://men.public.lu/lb/publications/statistiques-etudes/themes-transversaux/24-bildungsbericht.html)
-- [Rapport sur l&#39;éducation 2021](https://men.public.lu/lb/publications/statistiques-etudes/themes-transversaux/21-bildungsbericht.html)
+- Rapport sur [l&#39;éducation 2024](https://men.public.lu/lb/publications/statistiques-etudes/themes-transversaux/24-bildungsbericht.html)
+- Rapport sur [l&#39;éducation 2021](https://men.public.lu/lb/publications/statistiques-etudes/themes-transversaux/21-bildungsbericht.html)
 
-Ces rapports analysent les résultats scolaires, l&#39;inclusion, le bien-être, les parcours scolaires et la performance du système à l&#39;échelle nationale. Ils contiennent très peu d&#39;informations par commune et aucune ne fait directement référence aux établissements scolaires. L&#39;information la plus précise dont disposent les parents pour choisir une école est la carte des taux d&#39;orientation par commune, de l&#39;école primaire générale vers la filière spécialisée au niveau post-baccalauréat.11Le ministère ne prétend pas que cette carte soit un indicateur de la qualité de l&#39;enseignement, mais si l&#39;on souhaite poursuivre des études supérieures, il semble judicieux de la consulter avant de choisir sa commune d&#39;inscription. La carte présente une certaine corrélation avec les prix de l&#39;immobilier et, plus généralement, avec la stratification socio-économique, mais pas une corrélation exacte.
+Ces rapports analysent les résultats scolaires, l&#39;inclusion, le bien-être, les parcours scolaires et la performance du système à l&#39;échelle nationale. Ils contiennent très peu d&#39;informations par commune et aucune ne fait directement référence aux établissements scolaires. L&#39;information la plus précise dont disposent les parents pour choisir une école est la carte des taux d&#39;orientation par commune, de l&#39;école primaire générale vers la filière académique après la 11e année. Le ministère ne considère pas cette carte comme un indicateur de la qualité de l&#39;enseignement, mais si l&#39;on souhaite une formation académique, il semble judicieux de la consulter avant de choisir la commune d&#39;inscription. Cette carte présente une certaine corrélation avec les prix de l&#39;immobilier et, plus généralement, avec la stratification socio-économique.
 
-![Carte de promotion par commune](/images/billungsbericht_map.png "Map of promotion by commune in Luxembourg from bildungsbericht 2021").
+[Carte de promotion par commune.](/images/billungsbericht_map.png "Map of promotion by commune in Luxembourg from bildungsbericht 2021")
 
 Une autre question essentielle que se posent les parents est : « Mon enfant sera-t-il traité avec dignité ou fera-t-il l’objet de discrimination ? » C’est une question délicate, et heureusement, les cas de discrimination manifeste et intentionnelle dans le corps enseignant sont rares et passibles de sanctions. Le graphique clé provient, là encore, du Bildungsbericht :
 
-![Graphique du niveau de réussite en fonction du groupe ethnolinguistique](/images/billungsbericht_outcomes.png "Graph of attainment versus ethnolinguistic group in Luxembourg from bildungsbericht 2021").
+[Graphique de la réussite scolaire en fonction du groupe ethnolinguistique.](/images/billungsbericht_outcomes.png "Graph of attainment versus ethnolinguistic group in Luxembourg from bildungsbericht 2021")
 
-L&#39;axe des abscisses du graphique représente le niveau d&#39;instruction des parents, tandis que l&#39;axe des ordonnées indique la réussite scolaire de l&#39;enfant scolarisé en Suisse (à gauche) ou au Luxembourg (à droite). Abstraction faite du léger recul observé au Luxembourg par rapport à la Suisse, on constate que pour les parents peu instruits, l&#39;appartenance ethnolinguistique a peu d&#39;influence sur les performances scolaires de l&#39;enfant. En revanche, pour les parents plus instruits, l&#39;enfant réussit mieux, sauf s&#39;il appartient à un groupe ethnolinguistique perçu comme « étranger », auquel cas ce contexte culturel devient un handicap. Ce phénomène est loin d&#39;être rare et ne semble, pour l&#39;instant, ni plus ni moins marqué au Luxembourg que dans d&#39;autres pays européens, comme la Suisse. Il est particulièrement frustrant pour les familles qui en sont victimes : les enseignants orientent fréquemment les enfants, pourtant prometteurs, vers des psychologues ou des assistants sociaux lorsqu&#39;ils rencontrent des difficultés scolaires. L&#39;impact des préjugés de la part des enseignants semble alors totalement inconscient, ces derniers supposant, en toute innocence, que le problème ne vient pas d&#39;eux.
+L&#39;axe des x du graphique montre le niveau d&#39;éducation des parents, l&#39;axe des y montre le niveau d&#39;études de l&#39;enfant s&#39;il est scolarisé en Suisse (à gauche) ou au Luxembourg (à droite).Si l&#39;on met de côté le recul global du Luxembourg par rapport à la Suisse, on constate que pour les parents peu instruits, l&#39;appartenance à un groupe ethnolinguistique a peu d&#39;influence sur les résultats scolaires de l&#39;enfant.Pour les parents plus instruits, l&#39;enfant aura de meilleurs résultats ; sauf s&#39;il appartient à un groupe ethnolinguistique perçu comme « étranger », auquel cas ce contexte d&#39;apprentissage devient un handicap pour l&#39;enfant.Ce phénomène est loin d&#39;être rare et ne semble pour le moment ni pire ni meilleur au Luxembourg que dans d&#39;autres pays européens, comme la Suisse par exemple.Ce phénomène est très frustrant pour les familles qui en sont victimes : il est fréquent que les enseignants orientent un enfant, pourtant prometteur, vers un psychologue ou un travailleur social lorsqu’il ne s’épanouit pas en milieu scolaire ; l’impact des préjugés de la part des enseignants semble, dans ce cas, totalement inconscient, puisqu’ils supposent, en toute innocence, que le problème se situe ailleurs qu’en eux.
 
 
 ### Références internationales
@@ -52,22 +57,22 @@ L&#39;axe des abscisses du graphique représente le niveau d&#39;instruction des
 Le Luxembourg participe parfois à des études internationales permettant une comparaison avec d&#39;autres systèmes éducatifs.
 
 #### PISA (OCDE)
-PISA évalue les performances de 15Les élèves de 18 ans ont obtenu de bons résultats en lecture, en mathématiques et en sciences. Le Luxembourg a participé au programme PISA. 2018n&#39;a pas participé au programme PISA 2022et devrait participer à nouveau aux cycles futurs. 
+Le programme PISA évalue les performances des élèves de 15 ans en lecture, en mathématiques et en sciences. Le Luxembourg a participé à PISA 2018, n&#39;a pas participé à PISA 2022 et devrait y participer à nouveau lors des prochains cycles. 
 
 Liens utiles :  
- - (Programme PISA de l&#39;OCDE)[https://www.oecd.org/pisa/]
+ - (Programme PISA de l&#39;OCDE) [https://www.oecd.org/pisa/]
  - (Résumé des données par un tiers)[https://educationbycountry.org/pisa-rankings-by-country/]
- - (Point de vue du ministère luxembourgeois)[https://men.public.lu/en/systeme-educatif/pilotage-monitoring/etudes-internationales/programme-international-pisa.html]
+ - (Luxembourg ministry perspective)[https://men.public.lu/en/systeme-educatif/pilotage-monitoring/etudes-internationales/programme-international-pisa.html]
    
 Les études PISA fournissent des informations sur le système dans son ensemble plutôt que sur les écoles individuelles.  
 
 De manière générale, le Luxembourg obtient des résultats nettement inférieurs à ceux de ses voisins, la Belgique, l&#39;Allemagne et la France. Il se situe également en deçà des pays dont l&#39;économie repose sur des services (relativement) comparable, comme l&#39;Irlande et le Royaume-Uni. Bien que peu de pays présentent la complexité linguistique et démographique du Luxembourg, plusieurs autres juridictions multilingues, dont le Canada, la Suisse et Singapour, ont obtenu des résultats sensiblement meilleurs. Les données disponibles suggèrent donc qu&#39;aucun des facteurs habituellement évoqués – géographie, économie et multilinguisme – ne suffit à expliquer les performances relativement faibles du Luxembourg.
 
-Le [classement général du Luxembourg](https://educationbycountry.org/pisa-rankings-by-country/) ce chiffre est nettement inférieur à celui du Portugal, qui, historiquement, était le principal pays de départ des immigrants vers le Luxembourg.
+Le [classement global du Luxembourg](https://educationbycountry.org/pisa-rankings-by-country/) est nettement inférieur à celui du Portugal, qui était historiquement le principal pays de départ des immigrants vers le Luxembourg.
 
 #### PIRLS
 
-PIRLS est une évaluation internationale des compétences en lecture. Le Luxembourg n&#39;a participé à PIRLS qu&#39;une seule fois, en 1997. 2006. 
+PIRLS est une évaluation internationale des compétences en lecture. Le Luxembourg n&#39;a participé à PIRLS qu&#39;une seule fois, en 2006. 
 
 #### TIMSS
 
@@ -83,10 +88,10 @@ Pour faciliter la recherche de ces informations, ce site propose une page pour c
 
 ### Profils des écoles
 
-- [Annuaire scolaire](schools/index) peut contenir :
+- [L&#39;annuaire scolaire](schools/index) peut contenir :
 
-- Faits de base
-- Programmes éducatifs
+- faits de base
+- programmes éducatifs
 - Documents accessibles au public
 - Couverture médiatique
 - Questions parlementaires
@@ -102,10 +107,10 @@ L&#39;inclusion d&#39;une information sur la page d&#39;un établissement scolai
 Généralement disponible :
 
 - Emplacement de l&#39;école
-- Programmes éducatifs
+- programmes éducatifs
 - Coordonnées
 - Informations sur la journée portes ouvertes
-- Procédures administratives
+- procédures administratives
 
 ## Ce qui peut être plus difficile à découvrir
 
@@ -114,8 +119,8 @@ Souvent moins facilement disponibles :
 - Indicateurs de qualité au niveau de l&#39;établissement scolaire
 - Résultats de l&#39;inspection
 - Plans d&#39;amélioration
-- Contexte historique
-- Situation de la solvabilité et des effectifs
+- contexte historique
+- État de solvabilité et de personnel
 - Menaces pour la santé associées à un lieu ou une école donnée
 
 L&#39;un des objectifs de ce site est d&#39;améliorer l&#39;accès à l&#39;information qui existe déjà mais qui est dispersée dans de multiples sources.

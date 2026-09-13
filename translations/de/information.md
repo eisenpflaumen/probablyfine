@@ -2,15 +2,20 @@
 layout: default
 lang: de
 ---
+
+
 <div class="language-switcher">
 <a href="/translations/None/information">
-   <img src="/images/gb.svg" alt="English" >
+   <img src="/images/gb.svg" alt="English" class="current">
 </a>
 <a href="/translations/fr/information">
    <img src="/images/fr.svg" alt="Français">
 </a>
 <a href="/translations/lb/information">
    <img src="/images/lu.svg" alt="Letzeburgesch">
+</a>
+<a href="/translations/de/{{page.stem}}">
+   <img src="/images/de.svg" alt="Deutsch">
 </a>
 <a href="/translations/pt/information">
    <img src="/images/pt.svg" alt="Português">
@@ -36,15 +41,15 @@ Der Nationale Bildungsbericht ist die umfassendste periodische Überprüfung des
 - [Bildungsbericht 2024](https://men.public.lu/lb/publications/statistiques-etudes/themes-transversaux/24-bildungsbericht.html)
 - [Bildungsbericht 2021](https://men.public.lu/lb/publications/statistiques-etudes/themes-transversaux/21-bildungsbericht.html)
 
-Diese Berichte behandeln Bildungsergebnisse, Inklusion, Wohlbefinden, Schullaufbahnen und die Leistungsfähigkeit des Schulsystems auf nationaler Ebene. Es liegen nur sehr wenige Informationen auf Gemeindeebene vor, und keine beziehen sich direkt auf einzelne Schulen. Die detailliertesten Informationen, die Eltern bei der Schulwahl zur Verfügung stehen, sind die Übersicht der Überweisungsquoten von der allgemeinen Grundschule zum akademischen Zweig der weiterführenden Schule pro Gemeinde.11Dies ist vom Ministerium nicht als Indikator für Bildungsqualität gedacht, doch wenn eine akademische Ausbildung angestrebt wird, erscheint es sinnvoll, diese Karte vor der Wahl des Studienortes zu konsultieren. Die Karte korreliert zwar in gewissem Maße mit den Immobilienpreisen und der allgemeinen sozioökonomischen Schichtung, jedoch nicht exakt.
+Diese Berichte behandeln Bildungsergebnisse, Inklusion, Wohlbefinden, Schulwege und die Leistungsfähigkeit des Schulsystems auf nationaler Ebene. Es gibt nur sehr wenige Informationen auf Gemeindeebene und gar keine, die sich direkt auf einzelne Schulen beziehen. Die detailliertesten Informationen, die Eltern bei der Schulwahl zur Verfügung stehen, sind die Überweisungsquoten pro Gemeinde von der allgemeinen Grundschule zum akademischen Zweig der Sekundarstufe II. Diese Karte dient laut Ministerium nicht als Indikator für Bildungsqualität, aber wenn eine akademische Ausbildung gewünscht wird, erscheint es sinnvoll, diese Karte vor der Wahl der Gemeinde zu konsultieren. Die Karte korreliert zwar in gewissem Maße mit den Immobilienpreisen und der sozioökonomischen Schichtung im Allgemeinen, jedoch nicht exakt.
 
-![Karte der Förderung nach Gemeinde](/images/billungsbericht_map.png "Map of promotion by commune in Luxembourg from bildungsbericht 2021")Die
+[!Karte der Beförderungen nach Kommunen.](/images/billungsbericht_map.png "Map of promotion by commune in Luxembourg from bildungsbericht 2021")
 
 Eine weitere wichtige Frage für Eltern lautet: „Wird mein Kind mit Würde behandelt oder diskriminiert?“ Dies ist eine heikle Frage, und glücklicherweise sind Fälle von offener und vorsätzlicher Diskriminierung im Lehrberuf selten und werden geahndet. Die zentrale Grafik stammt erneut aus dem Bildungsbericht:
 
-![Diagramm zum Bildungsstand im Vergleich zur ethnolinguistischen Gruppe](/images/billungsbericht_outcomes.png "Graph of attainment versus ethnolinguistic group in Luxembourg from bildungsbericht 2021")Die
+[Diagramm zum Bildungsstand im Vergleich zur ethnolinguistischen Gruppe.](/images/billungsbericht_outcomes.png "Graph of attainment versus ethnolinguistic group in Luxembourg from bildungsbericht 2021")
 
-Die x-Achse des Diagramms zeigt den Bildungsstand der Eltern, die y-Achse den Schulerfolg des Kindes in der Schweiz (links) bzw. in Luxemburg (rechts). Abgesehen vom allgemeinen Rückgang der schulischen Leistungen in Luxemburg im Vergleich zur Schweiz, lässt sich feststellen, dass die ethnolinguistische Zugehörigkeit der Eltern mit geringer Bildung kaum Einfluss auf den Schulerfolg des Kindes hat. Kinder mit höherer Bildung schneiden hingegen besser ab, es sei denn, sie gehören einer als „fremd“ wahrgenommenen ethnolinguistischen Gruppe an. In diesem Fall kann der Bildungshintergrund des Kindes sogar hinderlich sein. Dieses Phänomen ist weit verbreitet und scheint in Luxemburg derzeit weder ausgeprägter noch besser zu sein als in anderen europäischen Ländern wie beispielsweise der Schweiz. Für die betroffenen Familien ist dies sehr frustrierend: Häufig werden Kinder, die über hohes Potenzial verfügen, von Lehrern an Psychologen oder Sozialarbeiter überwiesen, wenn sie in der Schule nicht erfolgreich sind. Die Auswirkungen von Vorurteilen seitens der Lehrer scheinen in diesem Fall völlig unbewusst zu sein, da sie ganz unschuldig annehmen, das Problem liege woanders als bei ihnen selbst.
+Die x-Achse des Diagramms zeigt den Bildungsstand der Eltern, die y-Achse den Bildungserfolg des Kindes, wenn es in der Schweiz (links) oder in Luxemburg (rechts) erzogen wird.Abgesehen von der globalen Abwärtsverschiebung für Luxemburg im Vergleich zur Schweiz können wir sehen, dass bei Eltern mit geringer Bildung die ethnolinguistische Gruppe nur einen geringen Einfluss auf die schulischen Leistungen des Kindes hat.Bei Eltern mit höherer Bildung schneidet das Kind besser ab; es sei denn, es gehört einer ethnolinguistischen Gruppe an, die als „fremd“ wahrgenommen wird; in diesem Fall wird dieser Bildungshintergrund zu einem Handicap für das Kind.Dieses Phänomen ist alles andere als selten und scheint derzeit in Luxemburg weder schlimmer noch besser zu sein als in anderen europäischen Ländern, beispielsweise in der Schweiz.Dieses Phänomen ist für die betroffenen Familien sehr frustrierend: Überweisungen von Lehrern an Psychologen oder Sozialarbeiter sind üblich, wenn ein Kind, das hohes Potenzial zu haben scheint, im schulischen Umfeld nicht zurechtkommt; die Auswirkungen von Vorurteilen seitens der Lehrer scheinen in diesem Fall völlig unbewusst zu sein, da sie ganz unschuldig annehmen, das Problem liege woanders als bei ihnen selbst.
 
 
 ### Internationale Benchmarks
@@ -52,22 +57,22 @@ Die x-Achse des Diagramms zeigt den Bildungsstand der Eltern, die y-Achse den Sc
 Luxemburg beteiligt sich gelegentlich an internationalen Studien, die einen Vergleich mit anderen Bildungssystemen ermöglichen.
 
 #### PISA (OECD)
-PISA bewertet die Leistung von 15Luxemburg nahm an PISA teil. 2018hat nicht an PISA teilgenommen 2022und wird voraussichtlich auch in zukünftigen Zyklen wieder teilnehmen. 
+PISA bewertet die Leistungen von 15-jährigen Schülerinnen und Schülern in den Bereichen Lesen, Mathematik und Naturwissenschaften. Luxemburg nahm an PISA 2018 teil, nicht an PISA 2022, und wird voraussichtlich in zukünftigen Erhebungszyklen wieder teilnehmen. 
 
 Nützliche Links:  
  - (OECD-PISA-Programm)[https://www.oecd.org/pisa/]
  - (Zusammenfassung der Daten durch Dritte)[https://educationbycountry.org/pisa-rankings-by-country/]
- - (Aus Sicht des luxemburgischen Ministeriums)[https://men.public.lu/en/systeme-educatif/pilotage-monitoring/etudes-internationales/programme-international-pisa.html]
+ - (Perspektive des luxemburgischen Ministeriums) [https://men.public.lu/en/systeme-educatif/pilotage-monitoring/etudes-internationales/programme-international-pisa.html]
    
 Die PISA-Studien liefern Informationen über das System als Ganzes und nicht über einzelne Schulen.  
 
 Im Allgemeinen schneidet Luxemburg deutlich schlechter ab als seine Nachbarländer Belgien, Deutschland und Frankreich. Auch im Vergleich zu Ländern mit (in gewissem Maße) vergleichbaren dienstleistungsorientierten Volkswirtschaften wie Irland und Großbritannien liegt Luxemburg deutlich zurück. Zwar gibt es nur wenige Länder mit der sprachlichen und demografischen Komplexität Luxemburgs, doch erzielten einige andere Länder mit hoher Mehrsprachigkeit, darunter Kanada, die Schweiz und Singapur, wesentlich bessere Ergebnisse. Die vorliegenden Erkenntnisse deuten daher darauf hin, dass keiner der üblicherweise genannten Faktoren – Geografie, Wirtschaft und Mehrsprachigkeit – Luxemburgs vergleichsweise schwache Leistung ausreichend erklärt.
 
-Der [Gesamtrangliste von Luxemburg](https://educationbycountry.org/pisa-rankings-by-country/) liegt deutlich unter dem Wert von Portugal, das historisch gesehen das wichtigste Herkunftsland für die Einwanderung nach Luxemburg war.
+[Luxemburg liegt in der Gesamtwertung deutlich unter der von](https://educationbycountry.org/pisa-rankings-by-country/) Portugal, das historisch gesehen das wichtigste Herkunftsland für Einwanderer nach Luxemburg war.
 
 #### PIRLS
 
-PIRLS ist eine internationale Lesekompetenzmessung. Luxemburg hat nur einmal an PIRLS teilgenommen, im Jahr 2015. 2006Die 
+PIRLS ist eine internationale Lesefähigkeitsmessung. Luxemburg hat nur einmal, im Jahr 2006, an PIRLS teilgenommen. 
 
 #### TIMSS
 
@@ -83,14 +88,14 @@ Um das Auffinden dieser Materialien zu erleichtern, bietet diese Website für je
 
 ### Schulprofile
 
-- [Schulverzeichnis](schools/index) kann enthalten:
+- [Das Schulverzeichnis](schools/index) kann Folgendes enthalten:
 
 - Grundlegende Fakten
 - Bildungsprogramme
 - Öffentlich zugängliche Dokumente
 - Presseberichterstattung
 - Parlamentarische Anfragen
-- Elternverbindungen
+- Verbindungen der Elternvereinigung
 - Bedeutende, öffentlich gemeldete Ereignisse
 
 Die Aufnahme auf einer Schulseite bedeutet weder Zustimmung noch Kritik. Ziel ist es lediglich, bereits öffentlich zugängliche Informationen zu ordnen.
@@ -115,7 +120,7 @@ Oft weniger leicht verfügbar:
 - Inspektionsergebnisse
 - Verbesserungspläne
 - Historischer Kontext
-- Solvenz- und Personalstatus
+- Zahlungsfähigkeit und Personalstatus
 - Gesundheitsgefahren, die mit einem bestimmten Ort oder einer bestimmten Schule verbunden sind
 
 Ein Ziel dieser Website ist es, den Zugang zu bereits vorhandenen, aber über verschiedene Quellen verstreuten Informationen zu verbessern.
