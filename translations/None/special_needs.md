@@ -6,7 +6,7 @@ stem: special_needs
 
 <div class="language-switcher">
 <a href="/translations/None/{{page.stem}}">
-   <img src="/images/gb.svg" alt="English" >
+   <img src="/images/gb.svg" alt="English" class="current">
 </a>
 <a href="/translations/fr/{{page.stem}}">
    <img src="/images/fr.svg" alt="Français">
@@ -27,7 +27,7 @@ stem: special_needs
 
 # Special Educational Needs
 
-The section on [prejudice and persecution](prejudice_and_persecution) is intended to address discrimination in any context, including against children with or perceived to have special educational needs. Discrimination against, for example, a dyslexic child is however different to discrimination based on skin colour: a child who genuinely has special needs, by definition needs to be treated differently to other children in order to thrive.
+The section on [prejudice and persecution](prejudice_and_persecution) is intended to address discrimination in any context, including against children with or perceived to have special educational needs. Discrimination against, for example, a dyslexic child is however different to discrimination based on skin colour: a child who genuinely has special needs, by definition needs to be treated differently to other children in order to thrive. 
 
 ## Friendship and Support
 
@@ -37,23 +37,7 @@ There is compassion for children with visible and less visible handicaps, and a 
 
 ### Support in the classroom
 
-Support inside schools is limited to a quite short list of specific measures: whatever the intentions of individual teachers, Luxembourg does not envisage adapting to the individual child, but rather providing specific help for specific common problems, such as an electronic dictionary for children with dyslexia.
-
-The menu of available measures (called 'aménagements raisonnables') is available on [guichet](https://guichet.
-
-public.
-
-lu/fr/citoyens/citoyennete/accessibilite/mesure-accessibilite/demande-amenagement-raisonnable.
-
-html).
-
-The measure which teachers often seek is 'accompagniement' (accompaniement), in which a peripatetic additional staff member is appointed to follow a particular child around.
-
-This is often sought after by new teachers who may feel overwhelmed when in sole charge of a large class, hoping that a more experienced or specialist teacher will reduce the number of bullying incidents or other cases of lessons being disrupted by a child in distress.
-
-Teachers will put parents under pressure to follow the bureaucratic procedures to secure an 'accompagniement' however parents should be aware that this is not necessarily to their child's benefit: the accompanying person may have many functions, however one will be to protect them from bullying, but only during the lesson.
-
-Having part-time protection may be more dangerous than having none at all, as it validates the child as a target in the eyes of children and adults having the habit of persecution discussed above.
+Support inside schools is limited to a quite short list of specific measures: whatever the intentions of individual teachers, Luxembourg does not envisage adapting to the individual child, but rather providing specific help for specific common problems, such as an electronic dictionary for children with dyslexia.The menu of available measures (called 'aménagements raisonnables') is available on [guichet](https://guichet.public.lu/fr/citoyens/citoyennete/accessibilite/mesure-accessibilite/demande-amenagement-raisonnable.html).The measure which teachers often seek is 'accompagniement' (accompaniement), in which a peripatetic additional staff member is appointed to follow a particular child around.This is often sought after by new teachers who may feel overwhelmed when in sole charge of a large class, hoping that a more experienced or specialist teacher will reduce the number of bullying incidents or other cases of lessons being disrupted by a child in distress.Teachers will put parents under pressure to follow the bureaucratic procedures to secure an 'accompagniement' however parents should be aware that this is not necessarily to their child's benefit: the accompanying person may have many functions, however one will be to protect them from bullying, but only during the lesson.Having part-time protection may be more dangerous than having none at all, as it validates the child as a target in the eyes of children and adults having the habit of persecution discussed above.
 
 ### Why, Why Not, and How to Get a Neurodivergence Diagnosis
 
@@ -61,42 +45,23 @@ Schools in Luxembourg are not obliged to explain their decision making or docume
 
 Many schools employ a psychologist. This person is usually qualified to MSc level, such that they can administer standard psychometric tests (multidimensional IQ tests, reflex tests etc). An MSc psychologist does not know enough interpret the results or make any diagnosis, although they may have ideas you should not take what they say as authoritative.
 
-Before starting the quest for a diagnosis for your child, be aware that in Luxembourg there is no possibility for the educational system to acknowledge a fault in itself: obligations of teachers, psychologists, and school directors go only upwards in the hierarchy, towards the education ministry.
-
-There are no obligations of candour or compassion towards parents or children, therefore failures of a given organisation or individual are invariably passed onto a child.
-
-A child who has noise sensitivities for example will be labelled as having serious special needs if in a classroom which is never quiet, a child who is not quick to grant respect to strangers will be labelled as unteachable if teachers rotate quickly out of a particular school, a child who needs calm and security will be labelled as prone to hysteria if constantly pestered and teased.
-
-A child who is pushed and tripped wherever he goes will be labelled as clumsy (or "dyspraxic").
-
-Many children who are considered as having unmanageably serious special needs in Luxembourg simply leave the country, and discover excellent academic potential when in an education system which is run with accountability pointing towards them.
+Before starting the quest for a diagnosis for your child, be aware that in Luxembourg there is no possibility for the educational system to acknowledge a fault in itself: obligations of teachers, psychologists, and school directors go only upwards in the hierarchy, towards the education ministry.There are no obligations of candour or compassion towards parents or children, therefore failures of a given organisation or individual are invariably passed onto a child.A child who has noise sensitivities for example will be labelled as having serious special needs if in a classroom which is never quiet, a child who is not quick to grant respect to strangers will be labelled as unteachable if teachers rotate quickly out of a particular school, a child who needs calm and security will be labelled as prone to hysteria if constantly pestered and teased.A child who is pushed and tripped wherever he goes will be labelled as clumsy (or "dyspraxic").Many children who are considered as having unmanageably serious special needs in Luxembourg simply leave the country, and discover excellent academic potential when in an education system which is run with accountability pointing towards them.
 
 If you decide to follow the programme that is laid out by the system, you can follow these steps:
 
-1. Make an appointment with the Luxembourg Autism service [FAL.](https://www.fal.lu/) This is free, and may give some insight even if you don't expect or want an autism diagnosis; but the wait time is greater than one year, so get this set up first.
+ 1. Make an appointment with the Luxembourg Autism service [FAL.](https://www.fal.lu/) This is free, and may give some insight even if you don't expect or want an autism diagnosis; but the wait time is greater than one year, so get this set up first.
+ 2. Make an appointment with an expensive psychologist in Brussels such as [Jonathan Shin](https://www.shinjonathan.com/) this will be a more thorough and open-minded evaluation than at the FAL, and will probably be completed sooner, however you should budget approximately 1000 euro. Probable wait time is 6 months to 1 year. Dr Shin and those like him believe in both measuring and talking, so although they will perform tests in a strictly objective way, they then write recommendations typically following some discussion: the tests together with the recommendations can be taken to a proscribing doctor in Luxembourg if the psychologist and the parents agree ADHD medications such as dextro amphetamine or methylphenidate are appropriate.
+ 3. While you wait for the psychometric appointments, book a double-length appointment with a generalist doctor that you trust, ideally one that you have known for some time. Schools very often put pressure on parents to seek a neurodivergence diagnosis when the real problem is a physical illness (the child may be tired, or clumsy, or anxious, or irritable for a lot of reasons). If the GP is any good they will recommend a large range of easy blood tests, for example checking for Borrelia infection (now common in Luxembourg), renal infection (can cause neurological symptoms),  and a host of other things (individually rare, but in total a significant risk) which are often misdiagnosed as neurodivergence or as psychiatric complaints.
+ 4. If psychometric tests indicate some neurodivergence and if organic factors such as borrelia infection have been ruled out, then congratulations, you can take your FAL diagnosis (or one from a short visit to a Lux psychiatrist following a lengthy testing session with a psychologist in Brussels) and give it to the child's school to do what they want to do with it.
+5.If there is no neurodivergence and no physical illness, and if you have confidence that your child's school is a safe and reasonably sane environment, but your child is still unhappy or acting in a way that is harmful to them and others, then and only then you should consider child psychiatric care.It is very rare for a child to have real psychiatric problems: their minds are not usually complex enough to repress traumatic experiences, carry out self-destructive struggles against their own desires etc etc.Almost every child that ends up in psychiatric care in Luxembourg is a victim of a crazy adult, not crazy themselves, and the pedopsychiatrie service knows this: the main treatment which they impose is isolation of the child from all stimuli and stresses, which can in itself be highly traumatic if the child is by nature sociable and curious.Typical ("new generation") antipsychotic drugs are very harmful to developing children, however they may be recommended by psychiatric services for use on children, even in absence of any psychosis, because the sedative effective is quite convenient when children are unhappy in a loud or disruptive way.Parents should consider carefully, and get a second opinion from outside the country, before giving consent for treatment of children with antipsychotic drugs.
 
-2. Make an appointment with an expensive psychologist in Brussels such as [Jonathan Shin](https://www.shinjonathan.com/) this will be a more thorough and open-minded evaluation than at the FAL, and will probably be completed sooner, however you should budget approximately 1000 euro. Probable wait time is 6 months to 1 year. Dr Shin and those like him believe in both measuring and talking, so although they will perform tests in a strictly objective way, they then write recommendations typically following some discussion: the tests together with the recommendations can be taken to a proscribing doctor in Luxembourg if the psychologist and the parents agree ADHD medications such as dextro amphetamine or methylphenidate are appropriate.
-
-3. While you wait for the psychometric appointments, book a double-length appointment with a generalist doctor that you trust, ideally one that you have known for some time. Schools very often put pressure on parents to seek a neurodivergence diagnosis when the real problem is a physical illness (the child may be tired, or clumsy, or anxious, or irritable for a lot of reasons). If the GP is any good they will recommend a large range of easy blood tests, for example checking for Borrelia infection (now common in Luxembourg), renal infection (can cause neurological symptoms),  and a host of other things (individually rare, but in total a significant risk) which are often misdiagnosed as neurodivergence or as psychiatric complaints.
-
-4. If psychometric tests indicate some neurodivergence and if organic factors such as borrelia infection have been ruled out, then congratulations, you can take your FAL diagnosis (or one from a short visit to a Lux psychiatrist following a lengthy testing session with a psychologist in Brussels) and give it to the child's school to do what they want to do with it.
-
-5.
-
-If there is no neurodivergence and no physical illness, and if you have confidence that your child's school is a safe and reasonably sane environment, but your child is still unhappy or acting in a way that is harmful to them and others, then and only then you should consider child psychiatric care.
-
-It is very rare for a child to have real psychiatric problems: their minds are not usually complex enough to repress traumatic experiences, carry out self-destructive struggles against their own desires etc etc.
-
-Almost every child that ends up in psychiatric care in Luxembourg is a victim of a crazy adult, not crazy themselves, and the pedopsychiatrie service knows this: the main treatment which they impose is isolation of the child from all stimuli and stresses, which can in itself be highly traumatic if the child is by nature sociable and curious.
-
-Typical ("new generation") antipsychotic drugs are very harmful to developing children, however they may be recommended by psychiatric services for use on children, even in absence of any psychosis, because the sedative effective is quite convenient when children are unhappy in a loud or disruptive way.
-
-Parents should consider carefully, and get a second opinion from outside the country, before giving consent for treatment of children with antipsychotic drugs.
 
 ---
-
-
 Above text is specifically not legal or medical advice and is provided with no assurances.
 
 This is a community-maintained site and is not affiliated with the Luxembourg Ministry of Education or any other public authority. Reasonable efforts are made to cite sources, check facts and correct errors. Nevertheless, this site is maintained by volunteers and may contain omissions, inaccuracies or outdated information. Readers should consult official sources where authoritative information is required. Corrections, additional sources and suggestions are welcome.
+
+
+
+
 
