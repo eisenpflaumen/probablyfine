@@ -3,15 +3,19 @@ layout: default
 lang: lb
 stem: environment
 ---
+
 <div class="language-switcher">
 <a href="/translations/None/{{page.stem}}">
-   <img src="/images/gb.svg" alt="English" >
+   <img src="/images/gb.svg" alt="English" class="current">
 </a>
 <a href="/translations/fr/{{page.stem}}">
    <img src="/images/fr.svg" alt="Français">
 </a>
 <a href="/translations/lb/{{page.stem}}">
-   <img src="/images/lu.svg" alt="Letzeburgesch" class="current">
+   <img src="/images/lu.svg" alt="Letzeburgesch">
+</a>
+<a href="/translations/de/{{page.stem}}">
+   <img src="/images/de.svg" alt="Deutsch">
 </a>
 <a href="/translations/pt/{{page.stem}}">
    <img src="/images/pt.svg" alt="Português">
@@ -29,12 +33,12 @@ Lëtzebuerg ass vum EU-Recht verflicht, eng zimlech extensiv Iwwerwaachung vun �
 
 D&#39;Kaart hei ënnendrënner weist déi duerchschnëttlech Bläioflagerung, déi vun de Bergerhoff-Statiounen a ganz Lëtzebuerg gemooss gouf.
 
-![Kaart vun Airbourne Lead zu Lëtzebuerg](/images/bergerhoff.png "Map of airborne lead for 2026 to date").
+[Kaart vun der Airbourne Lead](/images/bergerhoff.png "Map of airborne lead for 2026 to date") zu Lëtzebuerg.
 
-- D&#39;Opazitéit vum Marker weist d&#39;Mass vum Blei un, deen pro Quadratmeter pro Dag ofgesat gëtt, 100 Mikrogramm pro Dag ass komplett opak.
-- D&#39;Wäerter ginn aus de monatleche Miessunge vum jeweilege Joer gemittelt.
+- D&#39;Marker-Opazitéit weist d&#39;Mass vu Blei un, déi pro Quadratmeter pro Dag ofgesat gëtt, 100 Mikrogramm pro Dag sinn komplett opak.
+- D&#39;Wäerter ginn aus de monatleche Miessunge vum jeeweilege Joer gemittelt.
 
-Et gi keng Donnéeë fir Blei ausserhalb vun de betraffenen industriellen/postindustriellen Gebidder am Süden gesammelt. Héich Konzentratiounen (iwwer dem Referenzwäert) 100 Mikrogramm/m³2/Dag) ginn an der Géigend vun der Arcelor Mittal Recyclinganlag am Zentrum vun Déifferdeng a bei der Walzwierk zu Belval (westlech vun Esch-Uelzecht) gewisen. Bedeitend Quantitéite vu Bläi sinn op bal all Statioun präsent, awer d&#39;Quantitéit hëlt mat der Distanz vun de wichtegste Suergen of. Eng US-amerikanesch Studie huet gewisen, datt de Schued duerch Belaaschtung mat Loftbläi ëm ongeféier d&#39;Halschent op enger Distanz vun ... ofhëlt. 50 Meilen (80 Kilometer) vun der Quell [Aarbechtspabeier vum NBER](https://www.nber.org/system/files/working_papers/w28250/w28250.pdf)Lëtzebuerg ass ongeféier 60 km breet.
+Et gi keng Donnéeë fir Blei ausserhalb vun de betraffene industriellen/postindustriellen Gebidder am Süden gesammelt. Héich Konzentratioune (iwwer dem Referenzwäert vun 100 Mikrogramm/m2/Dag) ginn an der Géigend vun der Arcelor-Mittal Recyclinganlag am Zentrum vun Déifferdeng a bei der Walzwierk zu Belval (westlech vun Esch-Uelzecht) gewisen. Bedeitend Quantitéite vu Blei sinn op bal all Statioun präsent, awer d&#39;Quantitéit hëlt mat der Distanz vun de wichtegste betraffene Plazen of. Eng US-amerikanesch Studie huet gewisen, datt de Schued duerch d&#39;Beliichtung mat Loftblei op enger Distanz vun 80 Kilometer vun der Quell [NBER Working Paper](https://www.nber.org/system/files/working_papers/w28250/w28250.pdf) ëm ongeféier d&#39;Halschent erofgeet. Lëtzebuerg ass ongeféier 60 km breet.
 
 
 ## Iwwersiicht vun den Donnéeën
@@ -61,7 +65,7 @@ Lëtzebuerg bedreift en landeswäit Netzwierk fir d&#39;Iwwerwaachung vun der Lo
 
 Fir d&#39;Eltere si Blei an aner Schwéiermetaller eng primäer Suerg: éischtens, well dës d&#39;Gesondheet an d&#39;Léierfäegkeet vun engem Kand beaflossen, och a klenge Quantitéiten; zweetens, well d&#39;Industriegeschicht vu Lëtzebuerg an de lafende Stolrecycling substantiell Schwéiermetallemissiounen an d&#39;Loft produzéieren.
 
-D&#39;Oflagerung vu schwéiere Metaller gëtt mat Hëllef vun **Bergerhoff-Netz**, wat e standardiséierte Prozess ass fir Material ze sammelen, sou wéi et sech aus der Atmosphär setzt.
+D&#39;Oflagerung vu Schwéiermetaller gëtt mam **Bergerhoff-Netz** iwwerwaacht, wat e standardiséierte Prozess ass fir Material ze sammelen, soubal et sech aus der Atmosphär ofsetzt.
 
 Gëfteg Substanzen, déi iwwerwaacht ginn, sinn ënner anerem:
 
@@ -69,39 +73,39 @@ Gëfteg Substanzen, déi iwwerwaacht ginn, sinn ënner anerem:
 - Cadmium (Cd)
 - Arsen (As)
 - Molybdän (Mo)
-- Nickel (Ni)
+- Néckel (Ni)
 - Chrom (Cr)
 - Zink (Zn)
 - Eisen (Fe)
 
-D&#39;Fro &quot;wéi vill e Problem ass&quot; kann schwéier ze beäntwerten sinn: fir déi schwéier Metaller wéi Blei a Quecksëlwer gëtt et keng akzeptabel Belaaschtung. D&#39;Toleranz géint Néckel beim Inhaléiere variéiert staark tëscht Individuen, et kann Gebuertsdefekter oder Fehlgeburte bei ufällege Persounen verursaachen, während aner net betraff sinn. Eisen ass natierlech e wäertvollen Nährstoff wann et a richteger Form giess gëtt, awer ass gëfteg wann et inhaléiert gëtt. Mangan ass eng vun de ville Ursaache vun der Parkinson-Krankheet, Stolaarbechter a Schweißer mat héijer berufflecher Belaaschtung hunn doduerch eng däitlech erhéicht Mortalitéit. Déi amerikanesch CDC féiert eng ... [Lëscht vun den Effekter vun gëftege Substanzen](https://wwwn.cdc.gov/TSP/index.aspx), deen sech a verschiddenen Detailer vun der [Lëscht, déi vun der Weltgesondheetsorganisatioun geréiert gëtt](https://inchem.org/pages/ehc.html) awer jidderee ass kloer, datt et am Fong keng akzeptabel Dosis fir Bläi, Cadmium oder Quecksëlwer gëtt. 
+D&#39;Fro &quot;wéi vill e Problem ass&quot; kann schwéier ze [beäntwerten](https://wwwn.cdc.gov/TSP/index.aspx) sinn: fir déi schwéier Metaller wéi Blei a Quecksëlwer gëtt et keng akzeptabel Belaaschtung. D&#39;Toleranz géint Néckel beim Inhaléiere variéiert staark tëscht Individuen, et kann Gebuertsdefekter oder Fehlgeburten bei ufällege Persounen verursaachen, anerer kënnen net betraff sinn. Eisen ass natierlech e wäertvollen Nährstoff wann et a richteger Form giess gëtt, awer ass gëfteg wann et inhaléiert gëtt. Mangan ass eng vun de ville Ursaache vun der Parkinson-Krankheet, Stolaarbechter a Schweißer mat héijer berufflecher Belaaschtung hunn doduerch eng däitlech erhéicht Mortalitéit. Déi amerikanesch CDC féiert eng Lëscht vun den Auswierkunge vun gëftege Substanzen, déi sech a verschiddene Detailer vun der Lëscht vun der [Weltgesondheetsorganisatioun](https://inchem.org/pages/ehc.html) ënnerscheet, awer jidderee ass kloer, datt et am Fong keng akzeptabel Dosis fir Blei, Cadmium oder Quecksëlwer gëtt. 
 
 ### Sex- a Metallsensibilitéit
 
-Den [Datebank vun der Weltgesondheetsorganisatioun](https://inchem.org/pages/ehc.html) weist drop hin, datt 10% vun der weiblecher Bevëlkerung an 1% vun der männlecher Bevëlkerung si empfindlech op Néckel, ouni mechanistesch Erklärungen ze ginn. Fir Eisenexpositioun geet den Effekt an déi aner Richtung: héich Östrogenniveauen am Blutt (Östrogen ass bei Fraen a schwankenden Niveauen jee no hirem reproduktive Zyklus präsent) wäerten [Zellen viru Schied duerch Eisen schützen](https://www.nature.com/articles/s41586-025-09389-x).
+D&#39;Datebank vun der [Weltgesondheetsorganisatioun](https://inchem.org/pages/ehc.html) weist datt 10% vun de weibleche Bevëlkerung an 1% vun de männleche Bevëlkerung empfindlech op Néckel sinn, ouni mechanistesch Erklärungen ze ginn. Fir den [Eisenexpositioun geet den Effekt an déi aner Richtung: héich Östrogenniveauen am Blutt](https://www.nature.com/articles/s41586-025-09389-x) (Östrogen ass bei Fraen a schwankenden Niveauen jee no hirem reproduktive Zyklus präsent) schützen d&#39;Zellen viru Schied duerch Eisen.
 
 ---
 
 ## Schoulen mat héijer Belaaschtung
 
-Schoulen, deenen hire ganze Campus oder en Deel dovun bannent engem Radius vun zwee km vun enger Héichemissiounsplaz läit, 2026 enthalen:
+Schoulen, deenen hire ganze Campus oder en Deel dovun am Joer 2026 bannent engem Radius vun zwee km vun enger Plaz mat héijen Emissiounen läit, sinn ënner anerem:
 
 | Institutioun | Typ |
 |------------|------|
-| Lycée Belval (LBV) | Secondary school |
-| Lycée Guillaume Kroll (LGK) | Secondairesschoul |
+| Lycée Belval (LBV) | Lycée |
+| Lycée Guillaume Kroll (LGK) | Lycée |
 | [École Internationale Differdange et Esch-sur-Alzette (EIDE)](schools/eide.ml) | International ëffentlech Schoul |
-| Lycée Mathias Adam (LMA) | Öffentleche Lycée |
-| Lycée Privat Emile Metz (LPEM) | Technesch/Beruffs-/Allgemeng Sekundarschoul |
+| Lycée Mathias Adam (LMA) | Ëffentlech Lycée |
+| Lycée Privat Emile Metz (LPEM) | Technesch/berufflech/allgemeng Secondairesschoul |
 
-Schoulen, déi manner wéi 100m vun enger Plaz mat héijen Emissiounen, sou datt d&#39;Verschmotzung siichtbar ass a wahrscheinlech direkt Auswierkungen op d&#39;Gesondheet huet:
+Schoulen, déi manner wéi 100 m vun enger Plaz mat héijen Emissiounen ewech sinn, sou datt d&#39;Verschmotzung siichtbar ass a wahrscheinlech direkt Auswierkungen op d&#39;Gesondheet huet:
 
 | Institutioun | Typ |
 |------------|------|
 | [École Internationale Differdange et Esch-sur-Alzette (EIDE)](schools/eide.ml) | International ëffentlech Schoul |
-| Lycée Privat Emile Metz (LPEM) | Technesch/Beruffs-/Allgemeng Sekundarschoul |
+| Lycée Privat Emile Metz (LPEM) | Technesch/berufflech/allgemeng Secondairesschoul |
 
 
-De Skript, deen benotzt gouf fir déi uewe genannte Kaart ze plotten, ass verfügbar [hei](/src/plot_berger.py).
+De Skript, deen benotzt gouf fir déi uewe genannte Kaart ze zeechnen, ass hei [verfügbar.](/src/plot_berger.py)
 
 

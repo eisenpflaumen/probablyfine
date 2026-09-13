@@ -27,7 +27,7 @@ class Chunk:
     old_mdtext:  str
     annotations: list
     skip:        bool
-
+    suffix:      str = "" 
 
 EMPH_RE = re.compile(
     r'(\*\*\*|\*\*|\*)(.*?)\1'
@@ -61,7 +61,6 @@ def parse_emphasis(chunk):
         marker    = m.group(1)
         ann_start = dst_pos
         ann_end   = dst_pos + len(body)
-
 
         annotations.append(
             Emphasis(
@@ -135,6 +134,12 @@ def parse_links(chunk):
     chunk.annotations.extend(annotations)
 
     return chunk
+
+# regexp for tables. These contain lots of --- which look like dividers
+# so check for tables first, then dividers more generally.
+TABLE_DIV_RE = re.compile(r'^\s*\|(?:\s*:?-+:?\s*\|)+\s*$')
+TABLE_ROW_RE = re.compile(r'^\s*\|.*\|\s*$')
+
 ## regext for --- *** : when unpaired, these indicate dividers.
 DIVIDER_RE = re.compile(  r'^(\s*[-*_]{3,}\s*\n)' )
     
@@ -145,64 +150,65 @@ def parse_markdown(md):
     """
     Convert a block of text to chunks, with annotation for markdown syntax.
     """
-
-    ## regexp to pick up block quotes, lists etc. >, 1. etc.
-    PREFIX_RE = re.compile( r'^(#{1,6}\s+|>\s*|[-*+]\s+|\d+\.\s+)' )
-
     #
     # Split into paragraphs.
     #
-    paragraphs = [p.strip() for p in re.split(r'\n\s*\n', md) if p.strip() ]
+    paragraphs = [
+        p for p in re.split(r'(\n\s*\n)', md) if p ]
     paras      = []
-
     for p in paragraphs:
-        
-        # Further split whenever a heading or bullet begins.
-        pieces = re.split( r'(?=\n\s*(?:#{1,6}\s+|[-*+]\s+|\d+\.\s+))', p )
+        # Further split whenever table column begins
+        pieces = re.split(r'(\||\n)', p)
         for piece in pieces:
-            piece = piece.strip()
-
-            if not piece:
-                continue
-
             if len(piece) < 1024:
                 paras.append(piece)
-            else:
-                # Rare case: paragraph exceeds API limit.
-                sentences = piece.split(".")
-
-                for s in sentences:
-                    s = s.strip()
-                    if s:
-                        paras.append(s + ".")
+                continue
+            
+            # Rare case: paragraph exceeds API limit.
+            sentences = piece.split(".")
+            for s in sentences:
+               s = s.strip()
+               if s:
+                  paras.append(s + ".")
 
     chunks_to_translate = []
     have_header = False
+    in_header   = False
     for para in paras:
         skip = False
 
-        ##header info and dividers, which look a lot like it.
+        ##header info
         m = DIVIDER_RE.match(para)
-        if para.startswith("---\n") and para.endswith("\n---") and have_header is False:
-            skip        = True
-            have_header = True
-            print("para matched as a header: ", para)
-        elif m:
-            divider = m.group(1)
+        if have_header is False:
+            if in_header is False:
+               if "---" in para:
+                  in_header = True
+            elif "---" in para:
+               in_header   = False
+               have_header = True
             chunks_to_translate.append(
-               Chunk( prefix="", text=divider, new_mdtext=None, old_mdtext=divider, annotations=[], skip=True )
+               Chunk( prefix="", text=para, new_mdtext=None, old_mdtext=para, 
+                 annotations=[], skip=True )
             )
+            continue
 
-            para = para[len(divider):]
-            if not para.strip():
-                continue
-            print("para split into", repr(divider), "and:", repr(para))
+        ###line is nothing else but just divider
+        elif re.match(r'^\s*([-*_])\1{2,}\s*$', para):
+            skip = True
+
+        ##suspect umatched dashes:
         elif "---" in para:
             raise ValueError("unmatched --- in: '%r' " % para)
           
-
-        ##lazy check for html
+        ##lazy check for html or table markdown 
         if para.lstrip().startswith("<"):
+            skip = True
+
+        if para == "|":
+            skip = True
+
+        ##if it is pure whitespace
+        if not para.strip():
             skip = True
 
         ##complicated regex to check for line-prefix markdown

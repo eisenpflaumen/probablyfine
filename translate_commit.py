@@ -52,8 +52,11 @@ LANGS = ["None", "fr", "de", "pt", "lb", "uk"] #, "ar"]
 #LANGS = ["fr"]
 
 ##strings not to translate
-do_not_translate =  ["EIDE", "EIGT", "EIMAB", "LML", "Liewen a Leieren"]
+do_not_translate =  {"EIDE", "EIGT", "EIMAB", "LML", "Liewen a Leieren"}
 
+##override translation if the entire line is this:
+fixed_translate = { ("Type", "fr") : "Type",
+                  }
 
 # -------------------------------------------------------------
 # Translation backend
@@ -456,7 +459,6 @@ def rebuild_chunk(chunk, target_lang = None):
     ## for now, enforce no multiline annotations
     claimed = chop_at_linebreak( claimed, text )
     
-    
     to_ins  = extract_insertions( claimed, text ) ##return as list of tuples (start, end, annotation)
     to_ins.sort(key=lambda x: x[0], reverse=True)
     for start, end, ann in to_ins:
@@ -490,9 +492,8 @@ def translate( text, target_lang: str) -> str:
 
     for c in chunks:
 
-        print("translating source text: %s to lang: %s" % (c.text, target_lang))
-        if c.skip:
-            print("skipping")
+        if c.skip or len(c.text) == 0:
+            print("pass through: %r" % c.old_mdtext)
             c.new_mdtext = c.old_mdtext
 
             ###hacks to update the language metadata for the page.
@@ -514,14 +515,20 @@ def translate( text, target_lang: str) -> str:
                     lines_out.append( L )
                 c.new_mdtext = "\n".join( lines_out )
             continue
-        
-        ##save not just translated text but translated+annotated
-        ##because parsing annotations requires sentence alignment, which is slow.
-        cached = get_cached_translation( c.old_mdtext, "en", target_lang)
-        if cached:
-            print("Cache hit:", cached)
-            c.new_mdtext = cached
-            continue
+      
+        key = (c.text.strip(), target_lang) 
+        if key in fixed_translate:
+            c.new_text = fixed_translate[key]
+            print("hardcoded override: source:%r to %s: %r" % (c.text, target_lang, c.new_text))
+            target_lang = "None"
+        else: 
+            ##save not just translated text but translated+annotated
+            ##because parsing annotations requires sentence alignment, which is slow.
+            cached = get_cached_translation( c.old_mdtext, "en", target_lang)
+            if cached:
+                print("Cache hit: %r to %r" % (c.old_mdtext, cached) )
+                c.new_mdtext = cached
+                continue
 
         ##if we get this far then we have to do some actual work.
         orig_text = c.text
@@ -529,7 +536,7 @@ def translate( text, target_lang: str) -> str:
 
             ##translate the raw text
             c.new_text    = translate_api( c.text, target_lang ) 
-            print("Translation: ", c.new_text )  
+            print("source:%r to %s: %r" % (c.text, target_lang, c.new_text))
         else:
             c.new_text = c.text
 
@@ -543,7 +550,7 @@ def translate( text, target_lang: str) -> str:
            
     out_text = ""
     for c in chunks:
-       out_text = out_text + c.new_mdtext + "\n\n" 
+       out_text = out_text + c.new_mdtext + c.suffix 
  
     return out_text
 

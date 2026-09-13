@@ -1,12 +1,8 @@
-------
-
-layout: defaultdisposition : par défaut
-
-lang: frlong : et
-
-stem: environmenttige : environnement
-
-------
+---
+layout: default
+lang: fr
+stem: environment
+---
 
 <div class="language-switcher">
 <a href="/translations/None/{{page.stem}}">
@@ -94,22 +90,22 @@ La base de [données de l&#39;Organisation mondiale](https://inchem.org/pages/eh
 
 Les écoles dont tout ou partie du campus se situe dans un rayon de deux kilomètres d&#39;un site à fortes émissions en 2026 comprennent :
 
-| Institution | Taper |
+| Institution | Type |
 |------------|------|
-| Lycée Belval (LBV) | Lycée |
-| Lycée Guillaume Kroll (LGK) | Lycée |
-| [Ecole Internationale de Differdange et Esch-sur-Alzette (EIDE)](schools/eide.ml) | École publique internationale |
+| Lycée Belval (LBV) | Secondary school |
+| Lycée Guillaume Kroll (LGK) | Secondary school |
+| [École Internationale Differdange et Esch-sur-Alzette (EIDE)](schools/eide.ml) | International public school |
 | Lycée Mathias Adam (LMA) | Public lycée |
-| Lycée Privé Emile Metz (LPEM) | École secondaire technique/professionnelle/générale |
+| Lycée Privé Emile Metz (LPEM) | Technical/vocational/general secondary school |
 
-Écoles situées à moins de 100 m d&#39;un site à fortes émissions, où la pollution est visible et susceptible d&#39;avoir des conséquences sanitaires immédiates :
+Schools which are less than 100m from a high emission site, such that pollution is visible and likely to have immediate health impacts:
 
-| Institution | Taper |
+| Institution | Type |
 |------------|------|
-| [Ecole Internationale de Differdange et Esch-sur-Alzette (EIDE)](schools/eide.ml) | École publique internationale |
-| Lycée Privé Emile Metz (LPEM) | École secondaire technique/professionnelle/générale |
+| [École Internationale Differdange et Esch-sur-Alzette (EIDE)](schools/eide.ml) | International public school |
+| Lycée Privé Emile Metz (LPEM) | Technical/vocational/general secondary school |
 
 
-Le script utilisé pour tracer la carte ci-dessus est disponible [ici.](/src/plot_berger.py)
+The script used to plot the above map is available [here.](/src/plot_berger.py)
 
 
