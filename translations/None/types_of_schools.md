@@ -3,15 +3,19 @@ layout: default
 lang: None
 stem: types_of_schools 
 ---
+
 <div class="language-switcher">
 <a href="/translations/None/{{page.stem}}">
-   <img src="/images/gb.svg" alt="English" >
+   <img src="/images/gb.svg" alt="English" class="current">
 </a>
 <a href="/translations/fr/{{page.stem}}">
    <img src="/images/fr.svg" alt="Français">
 </a>
 <a href="/translations/lb/{{page.stem}}">
    <img src="/images/lu.svg" alt="Letzeburgesch">
+</a>
+<a href="/translations/de/{{page.stem}}">
+   <img src="/images/de.svg" alt="Deutsch">
 </a>
 <a href="/translations/pt/{{page.stem}}">
    <img src="/images/pt.svg" alt="Português">
@@ -26,7 +30,7 @@ stem: types_of_schools
 
 Luxembourg offers a variety of schooling options. The details of flow through the major and minor options, including european, international, local-international, general, technical, vocational, classical, special needs and semi-medical or fully medical routes, are extremely complicated. Any given education pathway can then be modified with part-time support measures such as 'psychomotricité', or 'accompaniement' for children who are have a diagnosis or are informally judged as being in want of one, or with part-time access to gifted education programmes. Residential options may be medical or correctional in nature or some combination, attendance at boarding schools within Luxembourg may also happen for logistical reasons however this choice is relatively rare compared to nations reputed as education destinations.
 
-The Ministry's overview of routes and choices covers the [nine major pathways](https://men.public.lu/dam-assets/catalogue-publications/divers/informations-generales/systeme-educatif-luxembourgeois-apercu-en.pdf).
+The Ministry's overview of routes and choices covers the [nine major pathways.](https://men.public.lu/dam-assets/catalogue-publications/divers/informations-generales/systeme-educatif-luxembourgeois-apercu-en.pdf)
 
 There is no publicly available data resource at this time which can document standards or outcomes of individual schools or of types of schools.
 
@@ -76,7 +80,7 @@ Best for:
 - Excellence in 'traditional' school subjects
 - University preparation
 
-One of the most eminent of Luxembourgoise scientists, [Michel Goedert](https://en.wikipedia.org/wiki/Michel_Goedert), attended the Athenée. Complaints from parents (as any school will have) include inflexibility and pettiness, the notion of excellence pursued may tend to be more formal than it is inclusive.
+One of the most eminent of Luxembourgoise scientists, [Michel Goedert,](https://en.wikipedia.org/wiki/Michel_Goedert) attended the Athenée. Complaints from parents (as any school will have) include inflexibility and pettiness, the notion of excellence pursued may tend to be more formal than it is inclusive.
 
 ---
 ## international GCSE at Lycée Michel Lucius (LML)
@@ -89,12 +93,12 @@ LML is a city centre school and not without its problems. Education in English i
 
 In general the press is positive or silent about LML however it is a busy city centre school and problematic incidents do take place
 
-[Report of a stabbing](https://today.rtl.lu/news/luxembourg/fourteen-year-old-girl-placed-in-custody-after-stabbing-at-luxembourg-city-school-173351815).
+[Report of a stabbing.](https://today.rtl.lu/news/luxembourg/fourteen-year-old-girl-placed-in-custody-after-stabbing-at-luxembourg-city-school-173351815)
 
 
 ## Public International Schools
 
-State-funded schools offering international curricula and often taught partly in English, French, German or potentially some other language. These are recently established and have been much in demand, despite problematic results for the first cohorts to pass through. The most information available is for the oldest of these schools [EIDE](schools/EIDE.md). 
+State-funded schools offering international curricula and often taught partly in English, French, German or potentially some other language. These are recently established and have been much in demand, despite problematic results for the first cohorts to pass through. The most information available is for the oldest of these schools [EIDE.](schools/EIDE.md) 
 
 These typically offer a Bacculaureate qualification which permits progress to university (assuming success).
 
@@ -122,7 +126,7 @@ Press:
 
 - [Despite controversies the EI remain in high demand](https://www.luxtimes.lu/luxembourg/demand-for-luxembourgs-public-international-schools-still-far-exceeds-capacity/158751671.html)
 
-- The management of EI has a quite free hand even relative to the main body of the education system. This has led to incidences of overreach by egotistical characters followed by their denouncement to the police, with consequences which were amusing at least for gossip purposes [School director suspended over guns and cocaine](https://today.rtl.lu/news/luxembourg/diekirch-prosecutor-seeks-2-000-fine-for-suspended-principal-of-clervaux-lycee-2351644).
+- The management of EI has a quite free hand even relative to the main body of the education system. This has led to incidences of overreach by egotistical characters followed by their denouncement to the police, with consequences which were amusing at least for gossip purposes [School director suspended over guns and cocaine.](https://today.rtl.lu/news/luxembourg/diekirch-prosecutor-seeks-2-000-fine-for-suspended-principal-of-clervaux-lycee-2351644)
 
 ---
 
